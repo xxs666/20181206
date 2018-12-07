@@ -1,1 +1,53 @@
 @import './reset.scss';
+@import './function.scss';
+
+.g-hd{
+    .m-hd{
+        height: 74px;
+        color: #ffffff;
+        .u-logo{
+            width: 246px;
+            margin-left: 157px;
+        }
+    }
+    .m-bd{
+        height: 79px;
+        background-color: #027ece;
+        color: #ffffff;
+        .m-mn{
+            margin: 0 0 0 160px;
+            font-size:0;
+            .u-hd-btn{
+                font-size: 12px;
+                width: 93px;
+                height: 39px;
+                line-height: 39px;
+                text-align: center;
+                border-left: 1px solid #015a92;
+                border-bottom: 1px solid #015a92;
+                box-shadow: 0 0 2px #0185d5 inset;
+            }
+            .u-hd-btn.select{
+                background-color: #0067b7;
+            }
+            .u-hd-btn:last-child{
+                border-right: 1px solid #015a92;
+            }
+            .g-second{
+                .u-hd-btn{
+                    border-bottom: none;
+                }
+            }
+        }
+        .m-sd{
+            height: 79px;
+            line-height: 79px;
+            .archives{
+                padding: 12px 25px 12px 30px;
+                border-right: 1px solid #015a92;
+                height: 55px;
+                vertical-align: middle;
+            }
+        }
+    }
+}
