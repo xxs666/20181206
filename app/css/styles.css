@@ -422,10 +422,18 @@ body {
   margin: 75px 190px 0 188px; }
   .g-bd .g-mn {
     width: 1308px; }
+    .g-bd .g-mn .btn-more {
+      position: absolute;
+      right: 0;
+      bottom: 25px;
+      width: 79px;
+      height: 30px;
+      background: url("../../imgs/btn_more.png") no-repeat; }
     .g-bd .g-mn .m-tab {
       width: 610px;
       margin-right: 40px; }
       .g-bd .g-mn .m-tab .m-tab-header {
+        position: relative;
         height: 90px; }
       .g-bd .g-mn .m-tab .m-tab-header-item {
         width: 139px;
@@ -465,7 +473,8 @@ body {
     .g-bd .g-mn .m-down .m-con-right {
       width: 558px; }
     .g-bd .g-mn .m-down .m-header {
-      height: 90px; }
+      height: 90px;
+      position: relative; }
     .g-bd .g-mn .m-down .title {
       width: 139px;
       height: 90px;

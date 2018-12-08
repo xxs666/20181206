@@ -280,10 +280,19 @@ body{
     margin: 75px 190px 0 188px;
     .g-mn{
         width: 1308px;
+        .btn-more{
+            position: absolute;
+            right: 0;
+            bottom: 25px;
+            width: 79px;
+            height: 30px;
+            background: url("../../imgs/btn_more.png") no-repeat;
+        }
         .m-tab{
             width: 610px;
             margin-right: 40px;
             .m-tab-header{
+                position: relative;
                 height: 90px;
             }
             .m-tab-header-item{
@@ -335,6 +344,7 @@ body{
             }
             .m-header{
                 height: 90px;
+                position: relative;
             }
             .title{
                 width: 139px;
