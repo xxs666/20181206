@@ -2,9 +2,11 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
+var autoperfixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
   return gulp.src('./app/styles/scss/**/*.scss')
+    .pipe(autoperfixer())
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./app/css'));
 });

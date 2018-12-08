@@ -61,6 +61,126 @@
                     <img class="archives" src="imgs/archives.png">
                 </div>
             </div>
+            <div class="m-ft">
+                <div>
+                    <div class="f-ib z-margin z-margin-l">
+                        <select name="" class="u-select">
+                            <option value="1">题名</option>
+                            <option value="2">文件编号</option>
+                            <option value="3">档号</option>
+                            <option value="4">项目名称</option>
+                            <option value="5">归档单位</option>
+                            <option value="6">设计</option>
+                            <option value="7">审核</option>
+                            <option value="8">核定</option>
+                        </select>
+                    </div>
+                    <div class="f-ib z-margin">
+                        <input class="u-input" type="text" name="search" />
+                    </div>
+                    <div class="f-ib z-margin">
+                        <div class="u-btn">
+                            <img src="./imgs/search.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="z-padding-l">
+                    <div class="u-checkbox z-margin-r">
+                        <div class="u-checkbox-item z-circle">
+                            <input type="checkbox" name="all" value="all" id="all" defaultChecked="false" />
+                            <label for="all"></label>
+                        </div>
+                        <label for="all" class="u-radio-item">全选</label>
+                    </div>
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="tuzhi" id="tuzhi" defaultChecked="false" />
+                            <label for="tuzhi"></label>
+                        </div>
+                        <label for="tuzhi" class="u-radio-item">图纸</label>
+                    </div>
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="dangan" id="dangan" defaultChecked="false" />
+                            <label for="dangan"></label>
+                        </div>
+                        <label for="dangan" class="u-radio-item">档案</label>
+                    </div>
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="sanwei" id="sanwei" defaultChecked="false" />
+                            <label for="sanwei"></label>
+                        </div>
+                        <label for="sanwei" class="u-radio-item">三维</label>
+                    </div>
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="gongwen" id="gongwen" defaultChecked="false" />
+                            <label for="gongwen"></label>
+                        </div>
+                        <label for="gongwen" class="u-radio-item">公文</label>
+                    </div>
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="hetong" id="hetong" defaultChecked="false" />
+                            <label for="hetong"></label>
+                        </div>
+                        <label for="hetong" class="u-radio-item">合同</label>
+                    </div>
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="声像" id="声像" defaultChecked="false" />
+                            <label for="声像"></label>
+                        </div>
+                        <label for="声像" class="u-radio-item">声像</label>
+                    </div>
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="rongyu" id="rongyu" defaultChecked="false" />
+                            <label for="rongyu"></label>
+                        </div>
+                        <label for="rongyu" class="u-radio-item">荣誉</label>
+                    </div>
+                </div>
+            </div>
+            <div class="m-ft-ex">
+                <div class="m-up">
+                    <div class="f-ib z-algin">
+                        <select name="" class="u-select">
+                            <option value="1">题名</option>
+                            <option value="2">文件编号</option>
+                            <option value="3">档号</option>
+                            <option value="4">项目名称</option>
+                            <option value="5">归档单位</option>
+                            <option value="6">设计</option>
+                            <option value="7">审核</option>
+                            <option value="8">核定</option>
+                        </select>
+                    </div>
+                    <div class="f-ib z-algin">
+                        <input class="u-input" type="text" name="serach_1" />
+                    </div>
+                    <div class="f-ib z-algin">
+                        <select name="" class="u-select u-select-sm">
+                            <option value="1">并且</option>
+                            <option value="2">或者</option>
+                        </select>
+                    </div>
+                    <div class="f-ib z-algin">
+                        <select name="" class="u-select u-select-sm">
+                            <option value="1">模糊</option>
+                            <option value="2">精确</option>
+                        </select>
+                    </div>
+                    <div class="f-ib z-algin">
+                       <img class="btn-calc" src="./imgs/plus.png">
+                    </div>
+                    <div class="f-ib z-algin">
+                        <img class="btn-calc" src="./imgs/minus.png">
+                    </div>
+                </div>
+                <div></div>
+            </div>
         </div>
         <div class="g-bd">
             <div class="g-mn">
@@ -71,8 +191,12 @@
             </div>
         </div>
         <div class="g-ft">
-            foot
         </div>
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+            });
+        </script>
 </body>
 
 </html>

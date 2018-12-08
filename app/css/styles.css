@@ -244,13 +244,139 @@ body {
       height: 110px;
       vertical-align: middle; }
 
-.形状_1_拷贝_2 {
-  border-width: 1px;
-  border-color: #004369;
-  border-style: solid;
-  position: absolute;
-  left: 320px;
-  top: 146px;
-  width: 5px;
-  height: 160px;
-  z-index: 85; }
+.g-hd .m-ft {
+  height: 333px;
+  background: url("./../../imgs//bg.png") no-repeat;
+  background-color: #0067b7; }
+  .g-hd .m-ft .z-padding-l {
+    padding-left: 678px; }
+  .g-hd .m-ft .z-margin {
+    margin-top: 122px;
+    margin-bottom: 34px;
+    vertical-align: middle; }
+  .g-hd .m-ft .z-margin-l {
+    margin-left: 433px; }
+  .g-hd .m-ft .u-select {
+    width: 254px;
+    height: 62px;
+    line-height: 62px;
+    font-size: 22px;
+    color: #747474;
+    padding: 0 64px 0 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 8px;
+    border: none;
+    background: url("../../imgs/dropicon.png") no-repeat scroll right center #ffffff; }
+    .g-hd .m-ft .u-select option {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: #f6f6f6;
+      color: #37668a; }
+    .g-hd .m-ft .u-select option:hover {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: 1px solid #b5b5b5;
+      background: none; }
+  .g-hd .m-ft .u-input {
+    width: 698px;
+    height: 62px;
+    border: none;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin: 0 2px; }
+  .g-hd .m-ft .u-checkbox {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 19px;
+    float: left;
+    font-size: 22px; }
+  .g-hd .m-ft .u-checkbox input[type=checkbox] {
+    display: none; }
+  .g-hd .m-ft .u-checkbox-item input[type=checkbox] + label {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url("../../imgs/radio_uncheck.png") no-repeat; }
+  .g-hd .m-ft .z-circle input[type=checkbox] + label {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url("../../imgs/radio_uncheck_circle.png") no-repeat; }
+  .g-hd .m-ft .u-checkbox-item input[type=checkbox]:checked + label {
+    display: block;
+    margin-right: -1px;
+    width: 19px;
+    height: 20px;
+    background: url("../../imgs/radio_check.png") no-repeat; }
+  .g-hd .m-ft .z-circle input[type=checkbox]:checked + label {
+    display: block;
+    margin-right: 0;
+    width: 22px;
+    height: 22px;
+    background: url("../../imgs/radio_check_circle.png") no-repeat; }
+  .g-hd .m-ft .u-checkbox-item {
+    position: relative;
+    margin-top: 3px;
+    float: left; }
+  .g-hd .m-ft .u-radio-item {
+    margin-left: 16px;
+    float: left;
+    color: #ffffff; }
+  .g-hd .m-ft .z-margin-r {
+    margin-right: 26px; }
+
+.g-hd .m-ft-ex {
+  height: 282px;
+  background-color: #f9f9f9;
+  padding: 0 246px 0 263px; }
+  .g-hd .m-ft-ex .m-up {
+    height: 76px;
+    border-bottom: 1px solid #d2d2d2;
+    padding-left: 158px;
+    padding-top: 54px; }
+    .g-hd .m-ft-ex .m-up .u-select {
+      width: 239px;
+      height: 46px;
+      line-height: 46px;
+      font-size: 22px;
+      color: #747474;
+      padding: 0 64px 0 17px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-radius: 8px;
+      border: 1px solid #adacac;
+      background: url("../../imgs/dropicon.png") no-repeat scroll right center #ffffff; }
+      .g-hd .m-ft-ex .m-up .u-select option {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: #f6f6f6;
+        color: #37668a; }
+      .g-hd .m-ft-ex .m-up .u-select option:hover {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: 1px solid #b5b5b5;
+        background: none; }
+    .g-hd .m-ft-ex .m-up .u-input {
+      width: 414px;
+      height: 44px;
+      border: 1px solid #b5b5b5;
+      font-size: 22px;
+      border-radius: 8px;
+      padding: 0 10px;
+      margin: 0 2px; }
+    .g-hd .m-ft-ex .m-up .u-select-sm {
+      width: 160px; }
+    .g-hd .m-ft-ex .m-up .btn-calc {
+      width: 46px;
+      height: 46px; }
+    .g-hd .m-ft-ex .m-up .z-algin {
+      vertical-align: middle;
+      margin-left: 14px; }

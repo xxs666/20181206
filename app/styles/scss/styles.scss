@@ -70,17 +70,164 @@ body{
             }
         }
     }
-}
+    .m-ft{
+        height: 333px;
+        background: url('./../../imgs//bg.png') no-repeat;
+        background-color: #0067b7;
+        .z-padding-l{
+            padding-left: 678px;
+        }
+        .z-margin{
+            margin-top: 122px;
+            margin-bottom: 34px;
+            vertical-align: middle;
+        }
+        .z-margin-l{
+            margin-left: 433px;
+        }
+        .u-select{
+            width: 254px;
+            height: 62px;
+            line-height: 62px;
+            font-size: 22px;
+            color: #747474;
+            padding: 0 64px 0 34px;
+            appearance: none;
+            border-radius: 8px;
+            border: none;
+            background: url("../../imgs/dropicon.png") no-repeat scroll right center #ffffff;
+            option{
+                appearance: none;
+                background: #f6f6f6;
+                color: #37668a;
+            }
+            option:hover{
+                appearance: none;
+                border:1px solid #b5b5b5;
+                background: none;
+            }
+        }
 
-.形状_1_拷贝_2 {
-    border-width: 1px;
-    border-color: rgb(0, 67, 105);
-    border-style: solid;
-    position: absolute;
-    left: 320px;
-    top: 146px;
-    width: 5px;
-    height: 160px;
-    z-index: 85;
-  }
+        .u-input{
+            width: 698px;
+            height: 62px;
+            border: none;
+            font-size: 22px;
+            border-radius: 8px;
+            padding: 0 10px;
+            margin: 0 2px;
+        }
+        
+        .u-checkbox{
+            position: relative;
+            margin-top: 3px;
+            margin-left: 19px;
+            float: left;
+            font-size: 22px;
+        }
+
+        .u-checkbox input[type=checkbox]{
+            display: none;
+        }
+
+        .u-checkbox-item input[type=checkbox] + label{
+            display: block;
+            width: 18px;
+            height: 18px;
+            background: url('../../imgs/radio_uncheck.png') no-repeat;
+        }
+
+        .z-circle input[type=checkbox] + label{
+            display: block;
+            width: 22px;
+            height: 22px;
+            background: url('../../imgs/radio_uncheck_circle.png') no-repeat;
+        }
+        
+        .u-checkbox-item input[type=checkbox]:checked + label{
+            display: block;
+            margin-right: -1px;
+            width: 19px;
+            height: 20px;
+            background: url('../../imgs/radio_check.png') no-repeat;
+        }
+
+        .z-circle input[type=checkbox]:checked + label{
+            display: block;
+            margin-right: 0;
+            width: 22px;
+            height: 22px;
+            background: url('../../imgs/radio_check_circle.png') no-repeat;
+        }
+
+        .u-checkbox-item{
+            position: relative;
+            margin-top: 3px;
+            float: left;
+        }
+
+        .u-radio-item{
+            margin-left: 16px;
+            float:left;
+            color: #ffffff;
+        }
+
+        .z-margin-r{
+            margin-right: 26px;
+        }
+    }
+    .m-ft-ex{
+        height: 282px;
+        background-color: #f9f9f9;
+        padding: 0 246px 0 263px;
+        .m-up{
+            height: 76px;
+            border-bottom: 1px solid #d2d2d2;
+            padding-left: 158px;
+            padding-top: 54px;
+            .u-select{
+                width: 239px;
+                height: 46px;
+                line-height: 46px;
+                font-size: 22px;
+                color: #747474;
+                padding: 0 64px 0 17px;
+                appearance: none;
+                border-radius: 8px;
+                border: 1px solid #adacac;
+                background: url("../../imgs/dropicon.png") no-repeat scroll right center #ffffff;
+                option{
+                    appearance: none;
+                    background: #f6f6f6;
+                    color: #37668a;
+                }
+                option:hover{
+                    appearance: none;
+                    border:1px solid #b5b5b5;
+                    background: none;
+                }
+            }
+            .u-input{
+                width: 414px;
+                height: 44px;
+                border:1px solid #b5b5b5;
+                font-size: 22px;
+                border-radius: 8px;
+                padding: 0 10px;
+                margin: 0 2px;
+            }
+            .u-select-sm{
+                width: 160px;
+            }
+            .btn-calc{
+                width: 46px;
+                height: 46px;
+            }
+            .z-algin{
+                vertical-align: middle;
+                margin-left: 14px;
+            }
+        }
+    }
+}
   
