@@ -197,36 +197,37 @@ a, a:hover {
   user-select: none; }
 
 body {
-  min-width: 960px; }
+  min-width: 1920px; }
 
 .g-hd .m-hd {
-  max-width: 960px;
-  height: 74px;
+  max-width: 1920px;
+  height: 148px;
   color: #ffffff;
   margin: 0 auto; }
   .g-hd .m-hd .u-logo {
-    width: 246px;
-    margin-left: 160px; }
+    width: 471px;
+    margin-left: 320px; }
 
 .g-hd .m-bd {
-  height: 79px;
-  background-color: #027ece;
+  height: 158px;
+  background-color: #027bcc;
   color: #ffffff; }
   .g-hd .m-bd .m-con {
-    max-width: 960px;
+    max-width: 1920px;
     margin: 0 auto; }
   .g-hd .m-bd .m-mn {
-    margin-left: 160px;
+    margin-left: 320px;
     font-size: 0; }
     .g-hd .m-bd .m-mn .u-hd-btn {
-      font-size: 12px;
-      width: 93px;
-      height: 39px;
-      line-height: 39px;
+      font-size: 24px;
+      background-color: #027dcb;
+      width: 186px;
+      height: 78px;
+      line-height: 78px;
       text-align: center;
       border-left: 1px solid #015a92;
-      border-bottom: 1px solid #015a92;
-      box-shadow: 0 0 2px #0185d5 inset; }
+      box-shadow: 1px 0 0 #0193ea,  2px 0 0 #0189bd,  1px 0 0 #0193ea inset,  2px 0 0 #0189bd inset, 0 1px 0 #0193ea inset,  0 2px 0 #0189bd inset;
+      border-bottom: 1px solid #015a92; }
     .g-hd .m-bd .m-mn .u-hd-btn.select {
       background-color: #0067b7; }
     .g-hd .m-bd .m-mn .u-hd-btn:last-child {
@@ -234,10 +235,22 @@ body {
     .g-hd .m-bd .m-mn .g-second .u-hd-btn {
       border-bottom: none; }
   .g-hd .m-bd .m-sd {
-    height: 79px;
-    line-height: 79px; }
+    height: 157px;
+    line-height: 157px; }
     .g-hd .m-bd .m-sd .archives {
-      padding: 12px 25px 12px 30px;
+      padding: 24px 50px 24px 60px;
       border-right: 1px solid #015a92;
-      height: 55px;
+      box-shadow: 1px 0 0 #0193ea,  2px 0 0 #0189bd,  1px 0 0 #0193ea inset,  2px 0 0 #0189bd inset;
+      height: 110px;
       vertical-align: middle; }
+
+.形状_1_拷贝_2 {
+  border-width: 1px;
+  border-color: #004369;
+  border-style: solid;
+  position: absolute;
+  left: 320px;
+  top: 146px;
+  width: 5px;
+  height: 160px;
+  z-index: 85; }
