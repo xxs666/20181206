@@ -282,7 +282,7 @@ body {
       border: 1px solid #b5b5b5;
       background: none; }
   .g-hd .m-ft .u-input {
-    width: 698px;
+    width: 678px;
     height: 62px;
     border: none;
     font-size: 22px;
@@ -365,7 +365,7 @@ body {
         border: 1px solid #b5b5b5;
         background: none; }
     .g-hd .m-ft-ex .m-up .u-input {
-      width: 414px;
+      width: 394px;
       height: 44px;
       border: 1px solid #b5b5b5;
       font-size: 22px;
@@ -378,5 +378,37 @@ body {
       width: 46px;
       height: 46px; }
     .g-hd .m-ft-ex .m-up .z-algin {
+      vertical-align: middle;
+      margin-left: 14px; }
+  .g-hd .m-ft-ex .m-down {
+    color: #37668a;
+    font-size: 22px;
+    margin: 42px 0 0 172px; }
+    .g-hd .m-ft-ex .m-down .u-input {
+      width: 114px;
+      height: 46px;
+      color: #747474;
+      border: 1px solid #b5b5b5;
+      font-size: 22px;
+      border-radius: 8px;
+      padding: 0 70px;
+      margin: 0 2px; }
+    .g-hd .m-ft-ex .m-down .btn-scan {
+      width: 178px;
+      height: 49px;
+      background: url("../../imgs/btn_scan.png") no-repeat;
+      cursor: pointer; }
+    .g-hd .m-ft-ex .m-down .btn-reset {
+      width: 178px;
+      height: 49px;
+      background: url("../../imgs/btn_reset.png") no-repeat;
+      cursor: pointer; }
+    .g-hd .m-ft-ex .m-down .btn-scan:active {
+      width: 178px;
+      background: url("../../imgs/btn_scan_focus.png") no-repeat; }
+    .g-hd .m-ft-ex .m-down .btn-reset:active {
+      width: 178px;
+      background: url("../../imgs/btn_reset_focus.png") no-repeat; }
+    .g-hd .m-ft-ex .m-down .z-algin {
       vertical-align: middle;
       margin-left: 14px; }

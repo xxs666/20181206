@@ -109,7 +109,7 @@ body{
         }
 
         .u-input{
-            width: 698px;
+            width: 678px;
             height: 62px;
             border: none;
             font-size: 22px;
@@ -208,7 +208,7 @@ body{
                 }
             }
             .u-input{
-                width: 414px;
+                width: 394px;
                 height: 44px;
                 border:1px solid #b5b5b5;
                 font-size: 22px;
@@ -222,6 +222,45 @@ body{
             .btn-calc{
                 width: 46px;
                 height: 46px;
+            }
+            .z-algin{
+                vertical-align: middle;
+                margin-left: 14px;
+            }
+        }
+        .m-down{
+            color: #37668a;
+            font-size: 22px;
+            margin: 42px 0 0 172px;
+            .u-input{
+                width: 114px;
+                height: 46px;
+                color: #747474;
+                border:1px solid #b5b5b5;
+                font-size: 22px;
+                border-radius: 8px;
+                padding: 0 70px;
+                margin: 0 2px;
+            }
+            .btn-scan{
+                width: 178px;
+                height: 49px;
+                background: url("../../imgs/btn_scan.png") no-repeat;
+                cursor: pointer;
+            }
+            .btn-reset{
+                width: 178px;
+                height: 49px;
+                background: url("../../imgs/btn_reset.png") no-repeat;
+                cursor: pointer;
+            }
+            .btn-scan:active{
+                width: 178px;
+                background: url("../../imgs/btn_scan_focus.png") no-repeat;
+            }
+            .btn-reset:active{
+                width: 178px;
+                background: url("../../imgs/btn_reset_focus.png") no-repeat;
             }
             .z-algin{
                 vertical-align: middle;
