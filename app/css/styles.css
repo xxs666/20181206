@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* reset */
 html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
   margin: 0;
@@ -55,7 +56,7 @@ del, ins, u, s, a, a:hover {
   text-decoration: none; }
 
 body, textarea, input, button, select, keygen, legend {
-  font: 12px/1.14 arial,\5b8b\4f53;
+  font: 12px/1.14 arial,"SourceHanSansCN Regular", "San Francisco", "Microsoft Yahei", "宋体";
   color: #333;
   outline: 0; }
 
@@ -195,19 +196,27 @@ a, a:hover {
   -o-user-select: none;
   user-select: none; }
 
+body {
+  min-width: 960px; }
+
 .g-hd .m-hd {
+  max-width: 960px;
   height: 74px;
-  color: #ffffff; }
+  color: #ffffff;
+  margin: 0 auto; }
   .g-hd .m-hd .u-logo {
     width: 246px;
-    margin-left: 157px; }
+    margin-left: 160px; }
 
 .g-hd .m-bd {
   height: 79px;
   background-color: #027ece;
   color: #ffffff; }
+  .g-hd .m-bd .m-con {
+    max-width: 960px;
+    margin: 0 auto; }
   .g-hd .m-bd .m-mn {
-    margin: 0 0 0 160px;
+    margin-left: 160px;
     font-size: 0; }
     .g-hd .m-bd .m-mn .u-hd-btn {
       font-size: 12px;

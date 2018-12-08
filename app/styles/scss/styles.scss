@@ -1,21 +1,31 @@
 @import './reset.scss';
 @import './function.scss';
 
+body{
+    min-width: 960px;
+}
+
 .g-hd{
     .m-hd{
+        max-width: 960px;
         height: 74px;
         color: #ffffff;
+        margin: 0 auto;
         .u-logo{
             width: 246px;
-            margin-left: 157px;
+            margin-left: 160px;
         }
     }
     .m-bd{
         height: 79px;
         background-color: #027ece;
         color: #ffffff;
+        .m-con{
+            max-width: 960px;
+            margin: 0 auto;
+        }
         .m-mn{
-            margin: 0 0 0 160px;
+            margin-left: 160px;
             font-size:0;
             .u-hd-btn{
                 font-size: 12px;
