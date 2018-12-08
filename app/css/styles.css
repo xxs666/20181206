@@ -338,7 +338,8 @@ body {
     height: 76px;
     border-bottom: 1px solid #d2d2d2;
     padding-left: 158px;
-    padding-top: 54px; }
+    padding-top: 54px;
+    vertical-align: top; }
     .g-hd .m-ft-ex .m-up .u-select {
       width: 239px;
       height: 46px;
@@ -419,7 +420,7 @@ body {
   background: #f0f0f0; }
 
 .g-bd {
-  margin: 75px 190px 0 188px; }
+  margin: 57px 190px 0 188px; }
   .g-bd .g-mn {
     width: 1308px; }
     .g-bd .g-mn .btn-more {
@@ -430,8 +431,8 @@ body {
       height: 30px;
       background: url("../../imgs/btn_more.png") no-repeat; }
     .g-bd .g-mn .m-tab {
-      width: 610px;
-      margin-right: 40px; }
+      width: 584px;
+      margin-right: 38px; }
       .g-bd .g-mn .m-tab .m-tab-header {
         position: relative;
         height: 90px; }
@@ -449,24 +450,62 @@ body {
         z-index: 100; }
       .g-bd .g-mn .m-tab .m-tab-body {
         border-top: 1px solid #bfbfbf;
-        padding-top: 48px; }
+        padding-top: 42px; }
         .g-bd .g-mn .m-tab .m-tab-body .u-news {
           color: #535353;
           font-size: 24px;
-          height: 32px;
-          line-height: 36px;
+          height: 40px;
+          line-height: 40px;
           border-bottom: 1px dotted #d6d6d6; }
           .g-bd .g-mn .m-tab .m-tab-body .u-news .u-text {
-            width: 440px;
+            width: 434px;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-            padding-right: 35px; }
+            padding-right: 25px; }
           .g-bd .g-mn .m-tab .m-tab-body .u-news .u-time {
             vertical-align: top; }
+      .g-bd .g-mn .m-tab .z-new {
+        padding-top: 51px; }
+      .g-bd .g-mn .m-tab .m-tab-body-item_new {
+        height: 84px;
+        margin-bottom: 45px; }
+        .g-bd .g-mn .m-tab .m-tab-body-item_new .u-label {
+          width: 102px; }
+          .g-bd .g-mn .m-tab .m-tab-body-item_new .u-label .date, .g-bd .g-mn .m-tab .m-tab-body-item_new .u-label .date-part {
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+            font-size: 18px;
+            border: 1px solid #bdbdbd; }
+          .g-bd .g-mn .m-tab .m-tab-body-item_new .u-label .date {
+            background-color: #f7f7f7;
+            color: #535353; }
+          .g-bd .g-mn .m-tab .m-tab-body-item_new .u-label .date-part {
+            border-bottom: none;
+            background-color: #00a0e9;
+            color: #fff; }
+        .g-bd .g-mn .m-tab .m-tab-body-item_new .u-con {
+          width: 518px;
+          overflow: hidden;
+          font-size: 24px;
+          vertical-align: top; }
+          .g-bd .g-mn .m-tab .m-tab-body-item_new .u-con .title {
+            margin-bottom: 10px;
+            line-height: 1; }
+          .g-bd .g-mn .m-tab .m-tab-body-item_new .u-con .desc {
+            height: 50px;
+            line-height: 26px;
+            font-weight: 200;
+            overflow: hidden; }
+      .g-bd .g-mn .m-tab .m-tab-body-item_new:last-child {
+        margin-bottom: 20px; }
       .g-bd .g-mn .m-tab .select {
         border-bottom: 5px solid #00a0e9;
         font-weight: 400; }
+    .g-bd .g-mn .m-tab_md {
+      width: 644px;
+      vertical-align: top; }
     .g-bd .g-mn .m-down .m-con-left {
       width: 667px;
       margin-right: 40px; }
@@ -511,7 +550,8 @@ body {
     background: #f7f7f7;
     width: 230px;
     margin-top: 3px;
-    border-radius: 2px; }
+    border-radius: 2px;
+    vertical-align: top; }
     .g-bd .g-sd .m-nav-item {
       width: 219px;
       height: 98px;

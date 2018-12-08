@@ -185,6 +185,7 @@ body{
             border-bottom: 1px solid #d2d2d2;
             padding-left: 158px;
             padding-top: 54px;
+            vertical-align: top;
             .u-select{
                 width: 239px;
                 height: 46px;
@@ -277,7 +278,7 @@ body{
 }
 
 .g-bd{
-    margin: 75px 190px 0 188px;
+    margin: 57px 190px 0 188px;
     .g-mn{
         width: 1308px;
         .btn-more{
@@ -289,8 +290,8 @@ body{
             background: url("../../imgs/btn_more.png") no-repeat;
         }
         .m-tab{
-            width: 610px;
-            margin-right: 40px;
+            width: 584px;
+            margin-right: 38px;
             .m-tab-header{
                 position: relative;
                 height: 90px;
@@ -310,29 +311,78 @@ body{
             }
             .m-tab-body{
                 border-top: 1px solid #bfbfbf;
-                padding-top: 48px;
+                padding-top: 42px;
                 .u-news{
                     color: #535353;
                     font-size: 24px;
-                    height: 32px;
-                    line-height: 36px;
+                    height: 40px;
+                    line-height: 40px;
                     border-bottom: 1px dotted #d6d6d6;
                     .u-text{
-                        width: 440px;
+                        width: 434px;
                         overflow: hidden;
                         text-overflow: ellipsis;
                         white-space: nowrap;
-                        padding-right: 35px;
+                        padding-right: 25px;
                     }
                     .u-time{
                         vertical-align: top;
                     }
                 }
             }
+            .z-new{
+                padding-top: 51px;
+            }
+            .m-tab-body-item_new{
+                height: 84px;
+                margin-bottom: 45px;
+                .u-label{
+                    width: 102px;
+                    .date,.date-part{
+                        height: 42px;
+                        line-height: 42px;
+                        text-align: center;
+                        font-size: 18px;
+                        border: 1px solid #bdbdbd;
+                    }
+                    .date{
+                        background-color: #f7f7f7;
+                        color: #535353;
+                    }
+                    .date-part{
+                        border-bottom: none;
+                        background-color: #00a0e9;
+                        color: #fff;
+                    }
+                }
+                .u-con{
+                    width: 518px;
+                    overflow: hidden;
+                    font-size: 24px;
+                    vertical-align: top;
+                    .title{
+                        margin-bottom: 10px;
+                        line-height: 1;
+                    }
+                    .desc{
+                        height: 50px;
+                        line-height: 26px;
+                        font-weight: 200;
+                        overflow: hidden;
+                    }
+                }
+            }
+            .m-tab-body-item_new:last-child{
+                margin-bottom: 20px;
+            }
             .select{
                 border-bottom: 5px solid #00a0e9;
                 font-weight: 400;
             }
+        }
+        .m-tab_md{
+            width: 644px;
+            vertical-align: top;
         }
         .m-down{
             .m-con-left{
@@ -389,6 +439,7 @@ body{
         width: 230px;
         margin-top: 3px;
         border-radius: 2px;
+        vertical-align: top;
         .m-nav-item{
             width: 219px;
             height: 98px;
