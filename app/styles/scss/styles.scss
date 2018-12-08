@@ -385,6 +385,7 @@ body{
             vertical-align: top;
         }
         .m-down{
+            margin-top: 30px;
             .m-con-left{
                 width: 667px;
                 margin-right: 40px;
@@ -455,6 +456,10 @@ body{
         }
         .m-nav-item:nth-child(even){
             background-color: #65b3e3;
+        }
+        .btn-down{
+            height: 52px;
+            background: url("../../imgs/btn_down.png") center no-repeat;
         }
     }
 }

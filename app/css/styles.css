@@ -506,46 +506,48 @@ body {
     .g-bd .g-mn .m-tab_md {
       width: 644px;
       vertical-align: top; }
-    .g-bd .g-mn .m-down .m-con-left {
-      width: 667px;
-      margin-right: 40px; }
-    .g-bd .g-mn .m-down .m-con-right {
-      width: 558px; }
-    .g-bd .g-mn .m-down .m-header {
-      height: 90px;
-      position: relative; }
-    .g-bd .g-mn .m-down .title {
-      width: 139px;
-      height: 90px;
-      line-height: 90px;
-      font-size: 30px;
-      color: #434343;
-      margin-right: 18px;
-      text-align: center;
-      position: relative;
-      top: -2px;
-      z-index: 100;
-      border-bottom: 5px solid #00a0e9;
-      font-weight: 400; }
-    .g-bd .g-mn .m-down .m-body {
-      padding-top: 20px;
-      border-top: 1px solid #bfbfbf;
-      width: 100%;
-      height: 392px; }
-      .g-bd .g-mn .m-down .m-body img {
-        height: 308px;
+    .g-bd .g-mn .m-down {
+      margin-top: 30px; }
+      .g-bd .g-mn .m-down .m-con-left {
         width: 667px;
-        vertical-align: bottom; }
-      .g-bd .g-mn .m-down .m-body .u-desc {
-        height: 84px;
-        line-height: 84px;
-        font-size: 14px;
-        color: #fff;
-        background: #0285d3;
-        padding: 0 36px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis; }
+        margin-right: 40px; }
+      .g-bd .g-mn .m-down .m-con-right {
+        width: 558px; }
+      .g-bd .g-mn .m-down .m-header {
+        height: 90px;
+        position: relative; }
+      .g-bd .g-mn .m-down .title {
+        width: 139px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 30px;
+        color: #434343;
+        margin-right: 18px;
+        text-align: center;
+        position: relative;
+        top: -2px;
+        z-index: 100;
+        border-bottom: 5px solid #00a0e9;
+        font-weight: 400; }
+      .g-bd .g-mn .m-down .m-body {
+        padding-top: 20px;
+        border-top: 1px solid #bfbfbf;
+        width: 100%;
+        height: 392px; }
+        .g-bd .g-mn .m-down .m-body img {
+          height: 308px;
+          width: 667px;
+          vertical-align: bottom; }
+        .g-bd .g-mn .m-down .m-body .u-desc {
+          height: 84px;
+          line-height: 84px;
+          font-size: 14px;
+          color: #fff;
+          background: #0285d3;
+          padding: 0 36px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
   .g-bd .g-sd {
     background: #f7f7f7;
     width: 230px;
@@ -564,3 +566,6 @@ body {
       background-color: #00a0e9; }
     .g-bd .g-sd .m-nav-item:nth-child(even) {
       background-color: #65b3e3; }
+    .g-bd .g-sd .btn-down {
+      height: 52px;
+      background: url("../../imgs/btn_down.png") center no-repeat; }
