@@ -11,6 +11,7 @@ select::-ms-expand{
 
 .g-hd{
     .m-hd{
+        position: relative;
         max-width: 1920px;
         height: 148px;
         color: #ffffff;
@@ -18,6 +19,25 @@ select::-ms-expand{
         .u-logo{
             width: 471px;
             margin-left: 320px;
+        }
+        .m-hd-nav{
+            position: absolute;
+            right: 159px;
+            bottom: 16px;
+            color: #434343;
+            font-size: 20px;
+            span{
+                position: relative;
+                margin-left: 57px;
+            }
+            .select:after{
+                content: url("../../imgs/triangle.png");
+                position: absolute;
+                width: 15px;
+                height: 11px;
+                left: 33px;
+                bottom: -9px;
+            }
         }
     }
     .m-bd{

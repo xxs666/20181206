@@ -203,6 +203,7 @@ select::-ms-expand {
   display: none; }
 
 .g-hd .m-hd {
+  position: relative;
   max-width: 1920px;
   height: 148px;
   color: #ffffff;
@@ -210,6 +211,22 @@ select::-ms-expand {
   .g-hd .m-hd .u-logo {
     width: 471px;
     margin-left: 320px; }
+  .g-hd .m-hd .m-hd-nav {
+    position: absolute;
+    right: 159px;
+    bottom: 16px;
+    color: #434343;
+    font-size: 20px; }
+    .g-hd .m-hd .m-hd-nav span {
+      position: relative;
+      margin-left: 57px; }
+    .g-hd .m-hd .m-hd-nav .select:after {
+      content: url("../../imgs/triangle.png");
+      position: absolute;
+      width: 15px;
+      height: 11px;
+      left: 33px;
+      bottom: -9px; }
 
 .g-hd .m-bd {
   height: 158px;
