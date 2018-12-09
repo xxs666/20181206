@@ -345,8 +345,17 @@
                         <div class="btn-more"></div>
                     </div>
                     <div class="m-body">
-                        <img src="imgs/3d.png">
-                        <div class="u-desc">晏志勇在中国发展高层论坛上提出：以新论坛上提论坛上提论坛上</div>
+                        <div class="unslide unslide-1 f-ib">
+                            <div class="unslider-horizontal" style="position: relative; overflow: hidden; height: 394px;">
+                                <ul class="unslider-wrap unslider-carousel" style="left: 0px; height:100%">
+                                    <li class="unslider-active" id="slide_1"></li>
+                                    <li class="" id="slide_2"></li>
+                                    <li class="" id="slide_3"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="btn-arrow btn-arrow-left"></div>
+                        <div class="btn-arrow btn-arrow-right"></div>
                     </div>
                 </div>
             </div>
@@ -366,12 +375,24 @@
         </div>
     </div>
     <div class="g-ft">
-            <div>Copyright(c)2017 by www.ecidi.com All Rights Reserved 网站技术支持:华东院信息中心</div>
-            <div>地址: 浙江 杭州 高教路201号(311122) 电话:0571-56628888（转）</div>
+        <div>Copyright(c)2017 by www.ecidi.com All Rights Reserved 网站技术支持:华东院信息中心</div>
+        <div>地址: 浙江 杭州 高教路201号(311122) 电话:0571-56628888（转）</div>
     </div>
     <script src="js/jquery.js"></script>
+    <script src="js/unslider.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+            var slide1 = $('.unslide-1').unslider({
+                nav: false,
+                arrows: false,
+            });
+            window.slide = slide1;
+            $(".btn-arrow-left").on("click", function () {
+                slide1.data('unslider').prev();
+            })
+            $(".btn-arrow-right").on("click", function () {
+                slide1.data('unslider').next();
+            })
         });
     </script>
 </body>

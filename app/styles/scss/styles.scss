@@ -393,6 +393,86 @@ body{
             }
             .m-con-right{
                 width: 558px;
+                .m-body{
+                    width: 498px;
+                    height: 394px;
+                    margin-left: 60px;
+                    position: relative;
+                }
+                .btn-arrow{
+                    position: absolute;
+                    width: 54px;
+                    height: 394px;
+                    z-index: 1000000;
+                }
+                .btn-arrow-left{
+                    left: -54px;
+                    top: 0;
+                    background: url("../../imgs/arrow_left_sm.png") center no-repeat;
+                }
+                .btn-arrow-right{
+                    top: 0;
+                    right: 0;
+                    background: url("../../imgs/arrow_right_sm.png") center no-repeat;
+                }
+                .unslide, .unslider {
+                    overflow: auto;
+                    margin: 0;
+                    padding: 0;
+                    width: 440px;
+                }
+                .unslider-wrap {
+                    position: relative;
+                }
+                .unslider-wrap.unslider-carousel>li {
+                    float: left
+                }
+                .unslider-vertical>ul {
+                    height: 100%
+                }
+                .unslider-vertical li {
+                    float: none;
+                    width: 100%
+                }
+                .unslider-fade {
+                    position: relative
+                }
+                .unslider-fade .unslider-wrap li {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    z-index: 8
+                }
+                .unslider-fade .unslider-wrap li.unslider-active {
+                    z-index: 10
+                }
+                .unslider li,
+                .unslider ol,
+                .unslider ul {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    border: none
+                }
+                #slide_1, #slide_2, #slide_3  {
+                    background: url("../../imgs/example.jpg") no-repeat center;
+                    width: 440px;
+                    height: 394px;
+                }
+                .unslider-arrow, .next,.prev {
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -24px;
+                    width: 48px;
+                    height: 48px;
+                }
+                .next {
+                    background: url("../../imgs/arrow_right_sm.png");
+                }
+                .prev{
+                    background: url("../../imgs/arrow_left_sm.png");
+                }
             }
             .m-header{
                 height: 90px;
@@ -416,9 +496,9 @@ body{
                 padding-top: 20px;
                 border-top: 1px solid #bfbfbf;
                 width: 100%;
-                height: 392px;
+                height: 396px;
                 img{
-                    height: 308px;
+                    height: 312px;
                     width: 667px;
                     vertical-align: bottom;
                 }
