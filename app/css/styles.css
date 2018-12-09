@@ -750,7 +750,8 @@ select::-ms-expand {
         margin-right: 70px;
         vertical-align: bottom; }
       .g-bd-ex .m-link .m-down .u-select {
-        width: 305px;
+        position: relative;
+        width: 232px;
         height: 38px;
         margin-right: 62px;
         line-height: 38px;
@@ -762,18 +763,29 @@ select::-ms-expand {
         -moz-appearance: none;
         appearance: none;
         background: url("../../imgs/icon_select.png") no-repeat scroll right center #ffffff; }
-        .g-bd-ex .m-link .m-down .u-select option {
-          -webkit-appearance: none;
-          -moz-appearance: none;
-          appearance: none;
-          background: #f6f6f6;
-          color: #37668a; }
-        .g-bd-ex .m-link .m-down .u-select option:hover {
-          -webkit-appearance: none;
-          -moz-appearance: none;
-          appearance: none;
-          border: 1px solid #b5b5b5;
-          background: none; }
+        .g-bd-ex .m-link .m-down .u-select .u-select-content {
+          display: none;
+          position: absolute;
+          top: 42px;
+          left: 10px;
+          border: 1px solid #b5b5b5; }
+        .g-bd-ex .m-link .m-down .u-select div {
+          background: #ffffff;
+          color: #434343;
+          padding-left: 10px; }
+          .g-bd-ex .m-link .m-down .u-select div .icon-right {
+            padding-right: 5px;
+            width: 19px;
+            height: 13px;
+            background: url("../../imgs/icon_right.jpg") no-repeat; }
+        .g-bd-ex .m-link .m-down .u-select a {
+          padding-left: 36px;
+          display: block;
+          width: 259px;
+          background: #ffffff;
+          color: #434343; }
+        .g-bd-ex .m-link .m-down .u-select a:hover {
+          background: #eeeeee; }
 
 .g-ft {
   border-width: 1px solid #c9f3fb;

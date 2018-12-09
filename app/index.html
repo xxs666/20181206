@@ -487,31 +487,37 @@
                 </div>
                 <div class="label f-ib">友情链接</div>
                 <div class="f-ib">
-                    <select name="" class="u-select">
-                        <option value="1">国内链接</option>
-                        <option value="2">奥斯</option>
-                        <option value="3">阿萨德</option>
-                    </select>
+                    <div name="" class="u-select">
+                        国内链接
+                        <div class="u-select-content">
+                            <div><span class="icon-right f-ib"></span>国内链接</div>
+                            <a href="#">12313</a>
+                            <a href="#">奥斯</a>
+                            <a href="#">阿萨德</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="f-ib">
-                    <select name="" class="u-select">
-                        <option value="1">国际链接</option>
-                        <option value="2">123</option>
-                        <option value="3">32</option>
-                        <option value="4">23</option>
-                        <option value="5">12</option>
-                    </select>
+                    <div name="" class="u-select">
+                        国际链接
+                        <div class="u-select-content">
+                            <div><span class="icon-right f-ib"></span>国际链接</div>
+                            <a href="#">12313</a>
+                            <a href="#">奥斯</a>
+                            <a href="#">阿萨德</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="f-ib">
-                    <select name="" class="u-select">
-                        <option value="1">项目链接</option>
-                        <option value="3">档号</option>
-                        <option value="4">项目名称</option>
-                        <option value="5">归档单位</option>
-                        <option value="6">设计</option>
-                        <option value="7">审核</option>
-                        <option value="8">核定</option>
-                    </select>
+                    <div name="" class="u-select">
+                        项目链接
+                        <div class="u-select-content">
+                            <div><span class="icon-right f-ib"></span>项目链接</div>
+                            <a href="#">12313</a>
+                            <a href="#">奥斯</a>
+                            <a href="#">阿萨德</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -546,6 +552,11 @@
             })
             $(".g-bd-ex .btn-arrow-right").on("click", function () {
                 slide2.data('unslider').next();
+            })
+            $(".m-link .u-select").on("click", function (e) {
+                e.stopPropagation();
+                $(this).parents(".f-ib").siblings().children(".u-select").children().hide();
+                $(this).children(".u-select-content").toggle();
             })
         });
     </script>

@@ -681,7 +681,8 @@ select::-ms-expand{
                 vertical-align: bottom;
             }
             .u-select{
-                width: 305px;
+                position: relative;
+                width: 232px;
                 height: 38px;
                 margin-right: 62px;
                 line-height: 38px;
@@ -691,15 +692,33 @@ select::-ms-expand{
                 padding: 0 43px 0 30px;
                 appearance: none;
                 background: url("../../imgs/icon_select.png") no-repeat scroll right center #ffffff;
-                option{
-                    appearance: none;
-                    background: #f6f6f6;
-                    color: #37668a;
+                .u-select-content{
+                    display: none;
+                    position: absolute;
+                    top: 42px;
+                    left: 10px;
+                    border: 1px solid #b5b5b5;
                 }
-                option:hover{
-                    appearance: none;
-                    border:1px solid #b5b5b5;
-                    background: none;
+                div{
+                    background: #ffffff;
+                    color: #434343;
+                    padding-left: 10px;
+                    .icon-right{
+                        padding-right: 5px;
+                        width: 19px;
+                        height: 13px;
+                        background: url("../../imgs/icon_right.jpg") no-repeat;
+                    }
+                }
+                a{
+                    padding-left: 36px;
+                    display: block;
+                    width: 259px;
+                    background: #ffffff;
+                    color: #434343;;
+                }
+                a:hover{
+                    background: #eeeeee;
                 }
             }
         }
