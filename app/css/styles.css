@@ -199,6 +199,9 @@ a, a:hover {
 body {
   min-width: 1920px; }
 
+select::-ms-expand {
+  display: none; }
+
 .g-hd .m-hd {
   max-width: 1920px;
   height: 148px;
@@ -464,6 +467,7 @@ body {
             white-space: nowrap;
             padding-right: 25px; }
           .g-bd .g-mn .m-tab .m-tab-body .u-news .u-time {
+            float: right;
             vertical-align: top; }
       .g-bd .g-mn .m-tab .z-new {
         padding-top: 51px; }
@@ -513,7 +517,9 @@ body {
         width: 667px;
         margin-right: 40px; }
       .g-bd .g-mn .m-down .m-con-right {
-        width: 558px; }
+        float: right;
+        width: 558px;
+        margin-right: 30px; }
         .g-bd .g-mn .m-down .m-con-right .m-body {
           width: 498px;
           height: 394px;
@@ -600,9 +606,9 @@ body {
       font-size: 22px;
       color: #fff;
       margin: 13px 6px 0 5px; }
-    .g-bd .g-sd .m-nav-item:nth-child(odd) {
+    .g-bd .g-sd .m-nav-item:nth-child(odd), .g-bd .g-sd .odd {
       background-color: #00a0e9; }
-    .g-bd .g-sd .m-nav-item:nth-child(even) {
+    .g-bd .g-sd .m-nav-item:nth-child(even), .g-bd .g-sd .even {
       background-color: #65b3e3; }
     .g-bd .g-sd .btn-down {
       height: 52px;
