@@ -471,7 +471,8 @@ body {
         height: 84px;
         margin-bottom: 45px; }
         .g-bd .g-mn .m-tab .m-tab-body-item_new .u-label {
-          width: 102px; }
+          width: 102px;
+          margin-right: 13px; }
           .g-bd .g-mn .m-tab .m-tab-body-item_new .u-label .date, .g-bd .g-mn .m-tab .m-tab-body-item_new .u-label .date-part {
             height: 42px;
             line-height: 42px;
@@ -486,7 +487,7 @@ body {
             background-color: #00a0e9;
             color: #fff; }
         .g-bd .g-mn .m-tab .m-tab-body-item_new .u-con {
-          width: 518px;
+          width: 505px;
           overflow: hidden;
           font-size: 24px;
           vertical-align: top; }
