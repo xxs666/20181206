@@ -691,7 +691,7 @@ select::-ms-expand {
           font-weight: bold; }
         .g-bd-ex .m-body .m-card .desc .summary {
           font-size: 28px;
-          max-width: 400px;
+          max-width: 410px;
           overflow: hidden;
           margin-top: 6px;
           white-space: nowrap;
