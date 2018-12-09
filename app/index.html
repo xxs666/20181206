@@ -374,6 +374,104 @@
             <div class="btn-down"></div>
         </div>
     </div>
+    <div class="g-bd-ex">
+        <div class="m-header">
+            <div class="title">
+                典型工程
+            </div>
+            <div class="btn-more"></div>
+        </div>
+        <div class="m-body">
+            <div class="unslide unslide-2 f-ib">
+                <div class="unslider-horizontal" style="position: relative; overflow: hidden; height: 394px;">
+                    <ul class="unslider-wrap unslider-carousel" style="left: 0px; height:100%">
+                        <li class="unslider-active">
+                            <div class="f-cb">
+                                <div class="m-card f-fl">
+                                    <img src="imgs/example.jpg" class="m-card-img" />
+                                    <div class="desc">
+                                        <div class="tit">
+                                            福建-古田一级水电站
+                                        </div>
+                                        <div class="summary">
+                                            62+4mw 1956年首台机组
+                                            <span class="btn-link">详细></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="m-card f-fl">
+                                    <img src="imgs/example.jpg" class="m-card-img" />
+                                    <div class="desc">
+                                        <div class="tit">
+                                            福建-古田一级水电站
+                                        </div>
+                                        <div class="summary">
+                                            62+4mw 1956年首台机组
+                                            <span class="btn-link">详细></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="m-card f-fl">
+                                    <img src="imgs/example.jpg" class="m-card-img" />
+                                    <div class="desc">
+                                        <div class="tit">
+                                            福建-古田一级水电站
+                                        </div>
+                                        <div class="summary">
+                                            62+4mw 1956年首台机组
+                                            <span class="btn-link">详细></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="f-cb">
+                                <div class="m-card f-fl">
+                                    <img src="imgs/example.jpg" class="m-card-img" />
+                                    <div class="desc">
+                                        <div class="tit">
+                                            福建-古田一级水电站
+                                        </div>
+                                        <div class="summary">
+                                            62+4mw 1956年首台机组
+                                            <span class="btn-link">详细></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="m-card f-fl">
+                                    <img src="imgs/example.jpg" class="m-card-img" />
+                                    <div class="desc">
+                                        <div class="tit">
+                                            福建-古田一级水电站
+                                        </div>
+                                        <div class="summary">
+                                            62+4mw 1956年首台机组
+                                            <span class="btn-link">详细></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="m-card f-fl">
+                                    <img src="imgs/example.jpg" class="m-card-img" />
+                                    <div class="desc">
+                                        <div class="tit">
+                                            福建-古田一级水电站
+                                        </div>
+                                        <div class="summary">
+                                            62+4mw 1956年首台机组
+                                            <span class="btn-link">详细></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="btn-arrow btn-arrow-left"></div>
+            <div class="btn-arrow btn-arrow-right"></div>
+        </div>
+    </div>
     <div class="g-ft">
         <div>Copyright(c)2017 by www.ecidi.com All Rights Reserved 网站技术支持:华东院信息中心</div>
         <div>地址: 浙江 杭州 高教路201号(311122) 电话:0571-56628888（转）</div>
@@ -385,13 +483,25 @@
             var slide1 = $('.unslide-1').unslider({
                 nav: false,
                 arrows: false,
+                infinite: true
+            });
+            var slide2 = $('.unslide-2').unslider({
+                nav: false,
+                arrows: false,
+                infinite: true
             });
             window.slide = slide1;
-            $(".btn-arrow-left").on("click", function () {
+            $(".g-bd .btn-arrow-left").on("click", function () {
                 slide1.data('unslider').prev();
             })
-            $(".btn-arrow-right").on("click", function () {
+            $(".g-bd .btn-arrow-right").on("click", function () {
                 slide1.data('unslider').next();
+            })
+            $(".g-bd-ex .btn-arrow-left").on("click", function () {
+                slide2.data('unslider').prev();
+            })
+            $(".g-bd-ex .btn-arrow-right").on("click", function () {
+                slide2.data('unslider').next();
             })
         });
     </script>
