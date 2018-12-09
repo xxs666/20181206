@@ -512,7 +512,7 @@ body{
 }
 
 .g-bd-ex{
-    margin: 57px 199px 0 188px;
+    margin: 33px 199px 0px 188px;
     .m-header{
         height: 90px;
         position: relative;
@@ -606,11 +606,6 @@ body{
         right: 0;
         background: url("../../imgs/arrow_right_md.png") center no-repeat;
     }
-    #slide_1, #slide_2, #slide_3  {
-        background: url("../../imgs/example.jpg") no-repeat center;
-        width: 440px;
-        height: 394px;
-    }
     .unslider-arrow, .next,.prev {
         position: absolute;
         top: 50%;
@@ -623,6 +618,64 @@ body{
     }
     .prev{
         background: url("../../imgs/arrow_left_sm.png");
+    }
+
+    .m-link{
+        margin-top: 75px;
+        .m-up{
+            height: 36px;
+            div{
+                height: 36px;
+                padding: 0 52px;
+                font-size: 24px;
+                color: #434343;
+                line-height: 36px;
+                border-left: 1px solid #b5b5b5;
+            }
+            div:last-child{
+                border-right: 1px solid #b5b5b5;
+            }
+        }
+        .m-down{
+            margin: 44px 0;
+            .icon{
+                width: 35px;
+                height: 35px;
+                background: url("../../imgs/link.png") no-repeat;
+                vertical-align: bottom;
+                margin-right: 29px;
+            }
+            .label{
+                height: 35px;
+                line-height: 35px;
+                color: #434343;
+                font-size: 34px;
+                margin-right: 70px;
+                vertical-align: bottom;
+            }
+            .u-select{
+                width: 305px;
+                height: 38px;
+                margin-right: 62px;
+                line-height: 38px;
+                font-size: 22px;
+                border: 1px solid #b5b5b5;
+                color: #b2b2b2;
+                padding: 0 43px 0 30px;
+                appearance: none;
+                background: url("../../imgs/icon_select.png") no-repeat scroll right center #ffffff;
+                option{
+                    appearance: none;
+                    background: #f6f6f6;
+                    color: #37668a;
+                }
+                option:hover{
+                    appearance: none;
+                    border:1px solid #b5b5b5;
+                    background: none;
+                }
+            }
+        }
     }
 }
 
