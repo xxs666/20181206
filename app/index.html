@@ -93,56 +93,56 @@
             <div class="z-padding-l">
                 <div class="u-checkbox z-margin-r">
                     <div class="u-checkbox-item z-circle">
-                        <input type="checkbox" name="all" value="all" id="all" defaultChecked="false" />
-                        <label for="all"></label>
+                        <input type="checkbox" name="all" value="all" id="check-all" defaultChecked="false" />
+                        <label for="check-all"></label>
                     </div>
-                    <label for="all" class="u-radio-item">全选</label>
+                    <label for="check-all" class="u-radio-item">全选</label>
                 </div>
                 <div class="u-checkbox">
                     <div class="u-checkbox-item">
-                        <input type="checkbox" name="ss" value="tuzhi" id="tuzhi" defaultChecked="false" />
+                        <input type="checkbox" name="ss" value="tuzhi" class="check-item" id="tuzhi" defaultChecked="false" />
                         <label for="tuzhi"></label>
                     </div>
                     <label for="tuzhi" class="u-radio-item">图纸</label>
                 </div>
                 <div class="u-checkbox">
                     <div class="u-checkbox-item">
-                        <input type="checkbox" name="ss" value="dangan" id="dangan" defaultChecked="false" />
+                        <input type="checkbox" name="ss" value="dangan" class="check-item" id="dangan" defaultChecked="false" />
                         <label for="dangan"></label>
                     </div>
                     <label for="dangan" class="u-radio-item">档案</label>
                 </div>
                 <div class="u-checkbox">
                     <div class="u-checkbox-item">
-                        <input type="checkbox" name="ss" value="sanwei" id="sanwei" defaultChecked="false" />
+                        <input type="checkbox" name="ss" value="sanwei" class="check-item" id="sanwei" defaultChecked="false" />
                         <label for="sanwei"></label>
                     </div>
                     <label for="sanwei" class="u-radio-item">三维</label>
                 </div>
                 <div class="u-checkbox">
                     <div class="u-checkbox-item">
-                        <input type="checkbox" name="ss" value="gongwen" id="gongwen" defaultChecked="false" />
+                        <input type="checkbox" name="ss" value="gongwen" class="check-item" id="gongwen" defaultChecked="false" />
                         <label for="gongwen"></label>
                     </div>
                     <label for="gongwen" class="u-radio-item">公文</label>
                 </div>
                 <div class="u-checkbox">
                     <div class="u-checkbox-item">
-                        <input type="checkbox" name="ss" value="hetong" id="hetong" defaultChecked="false" />
+                        <input type="checkbox" name="ss" value="hetong" class="check-item" id="hetong" defaultChecked="false" />
                         <label for="hetong"></label>
                     </div>
                     <label for="hetong" class="u-radio-item">合同</label>
                 </div>
                 <div class="u-checkbox">
                     <div class="u-checkbox-item">
-                        <input type="checkbox" name="ss" value="声像" id="声像" defaultChecked="false" />
+                        <input type="checkbox" name="ss" value="声像" class="check-item" id="声像" defaultChecked="false" />
                         <label for="声像"></label>
                     </div>
                     <label for="声像" class="u-radio-item">声像</label>
                 </div>
                 <div class="u-checkbox">
                     <div class="u-checkbox-item">
-                        <input type="checkbox" name="ss" value="rongyu" id="rongyu" defaultChecked="false" />
+                        <input type="checkbox" name="ss" value="rongyu" class="check-item" id="rongyu" defaultChecked="false" />
                         <label for="rongyu"></label>
                     </div>
                     <label for="rongyu" class="u-radio-item">荣誉</label>
@@ -561,6 +561,9 @@
             $(".btn-nav, .m-tab-header-item").on("click",function(){
                 $(this).addClass("select");
                 $(this).siblings().removeClass("select");
+            })
+            $("#check-all").on("change",function(){
+                $(".check-item").prop("checked", $(this).prop("checked"))
             })
         });
     </script>
