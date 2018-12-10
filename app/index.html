@@ -558,7 +558,7 @@
                 $(this).parents(".f-ib").siblings().children(".u-select").children().hide();
                 $(this).children(".u-select-content").toggle();
             })
-            $(".btn-nav").on("click",function(){
+            $(".btn-nav, .m-tab-header-item").on("click",function(){
                 $(this).addClass("select");
                 $(this).siblings().removeClass("select");
             })

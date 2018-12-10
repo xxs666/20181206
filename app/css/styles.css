@@ -477,7 +477,8 @@ select::-ms-expand {
         text-align: center;
         position: relative;
         top: -2px;
-        z-index: 100; }
+        z-index: 100;
+        cursor: pointer; }
       .g-bd .g-mn .m-tab .m-tab-body {
         border-top: 1px solid #bfbfbf;
         padding-top: 42px; }
