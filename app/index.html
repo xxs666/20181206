@@ -565,6 +565,21 @@
             $("#check-all").on("change",function(){
                 $(".check-item").prop("checked", $(this).prop("checked"))
             })
+            $(".check-item").on("change",function(){
+                if(!$(this).prop("checked")){
+                    $("#check-all").prop("checked", false)
+                }else{
+                    var flag = true;
+                    $(".check-item").each(function(index,item){
+                        if(!$(item).prop("checked")){
+                            flag = false;
+                        }
+                    })
+                    if(flag){
+                        $("#check-all").prop("checked", true);
+                    }
+                }
+            })
         });
     </script>
 </body>
