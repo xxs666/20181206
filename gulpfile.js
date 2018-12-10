@@ -5,7 +5,7 @@ var reload = browserSync.reload;
 var autoperfixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
-  return gulp.src('./app/styles/scss/**/*.scss')
+  return gulp.src('./app/styles/*.scss')
     .pipe(autoperfixer())
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./app/css'));
@@ -20,7 +20,7 @@ gulp.task('serve', ['sass'], function() {
     open: true
   });
 
-  gulp.watch('app/styles/scss/*.scss', ['sass'], reload);
+  gulp.watch('app/styles/*.scss', ['sass'], reload);
   gulp.watch(['*.html', 'app/css/**/*.css', 'app/scripts/**/*.js'], {cwd: 'app'}, reload);
 });
 

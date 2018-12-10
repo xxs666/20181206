@@ -31,7 +31,7 @@ select::-ms-expand{
                 margin-left: 57px;
             }
             .select:after{
-                content: url("../../imgs/triangle.png");
+                content: url("../imgs/triangle.png");
                 position: absolute;
                 width: 15px;
                 height: 11px;
@@ -98,7 +98,7 @@ select::-ms-expand{
     }
     .m-ft{
         height: 333px;
-        background: url('./../../imgs//bg.png') no-repeat;
+        background: url('./../imgs//bg.png') no-repeat;
         background-color: #0067b7;
         .z-padding-l{
             padding-left: 678px;
@@ -121,7 +121,7 @@ select::-ms-expand{
             appearance: none;
             border-radius: 8px;
             border: none;
-            background: url("../../imgs/dropicon.png") no-repeat scroll right center #ffffff;
+            background: url("../imgs/dropicon.png") no-repeat scroll right center #ffffff;
             option{
                 appearance: none;
                 background: #f6f6f6;
@@ -160,14 +160,14 @@ select::-ms-expand{
             display: block;
             width: 18px;
             height: 18px;
-            background: url('../../imgs/radio_uncheck.png') no-repeat;
+            background: url('../imgs/radio_uncheck.png') no-repeat;
         }
 
         .z-circle input[type=checkbox] + label{
             display: block;
             width: 22px;
             height: 22px;
-            background: url('../../imgs/radio_uncheck_circle.png') no-repeat;
+            background: url('../imgs/radio_uncheck_circle.png') no-repeat;
         }
         
         .u-checkbox-item input[type=checkbox]:checked + label{
@@ -175,7 +175,7 @@ select::-ms-expand{
             margin-right: -1px;
             width: 19px;
             height: 20px;
-            background: url('../../imgs/radio_check.png') no-repeat;
+            background: url('../imgs/radio_check.png') no-repeat;
         }
 
         .z-circle input[type=checkbox]:checked + label{
@@ -183,7 +183,7 @@ select::-ms-expand{
             margin-right: 0;
             width: 22px;
             height: 22px;
-            background: url('../../imgs/radio_check_circle.png') no-repeat;
+            background: url('../imgs/radio_check_circle.png') no-repeat;
         }
 
         .u-checkbox-item{
@@ -225,7 +225,7 @@ select::-ms-expand{
                 appearance: none;
                 border-radius: 8px;
                 border: 1px solid #adacac;
-                background: url("../../imgs/dropicon.png") no-repeat scroll right center #ffffff;
+                background: url("../imgs/dropicon.png") no-repeat scroll right center #ffffff;
                 option{
                     appearance: none;
                     background: #f6f6f6;
@@ -276,22 +276,22 @@ select::-ms-expand{
             .btn-scan{
                 width: 178px;
                 height: 49px;
-                background: url("../../imgs/btn_scan.png") no-repeat;
+                background: url("../imgs/btn_scan.png") no-repeat;
                 cursor: pointer;
             }
             .btn-reset{
                 width: 178px;
                 height: 49px;
-                background: url("../../imgs/btn_reset.png") no-repeat;
+                background: url("../imgs/btn_reset.png") no-repeat;
                 cursor: pointer;
             }
             .btn-scan:active{
                 width: 178px;
-                background: url("../../imgs/btn_scan_focus.png") no-repeat;
+                background: url("../imgs/btn_scan_focus.png") no-repeat;
             }
             .btn-reset:active{
                 width: 178px;
-                background: url("../../imgs/btn_reset_focus.png") no-repeat;
+                background: url("../imgs/btn_reset_focus.png") no-repeat;
             }
             .z-algin{
                 vertical-align: middle;
@@ -317,7 +317,7 @@ select::-ms-expand{
             bottom: 25px;
             width: 79px;
             height: 30px;
-            background: url("../../imgs/btn_more.png") no-repeat;
+            background: url("../imgs/btn_more.png") no-repeat;
             cursor: pointer;
         }
         .m-tab{
@@ -449,15 +449,15 @@ select::-ms-expand{
                 .btn-arrow-left{
                     left: -54px;
                     top: 0;
-                    background: url("../../imgs/arrow_left_sm.png") center no-repeat;
+                    background: url("../imgs/arrow_left_sm.png") center no-repeat;
                 }
                 .btn-arrow-right{
                     top: 0;
                     right: 0;
-                    background: url("../../imgs/arrow_right_sm.png") center no-repeat;
+                    background: url("../imgs/arrow_right_sm.png") center no-repeat;
                 }
                 #slide_1, #slide_2, #slide_3  {
-                    background: url("../../imgs/example.jpg") no-repeat center;
+                    background: url("../imgs/example.jpg") no-repeat center;
                     width: 440px;
                     height: 394px;
                 }
@@ -469,10 +469,10 @@ select::-ms-expand{
                     height: 48px;
                 }
                 .next {
-                    background: url("../../imgs/arrow_right_sm.png");
+                    background: url("../imgs/arrow_right_sm.png");
                 }
                 .prev{
-                    background: url("../../imgs/arrow_left_sm.png");
+                    background: url("../imgs/arrow_left_sm.png");
                 }
             }
             .m-header{
@@ -541,7 +541,7 @@ select::-ms-expand{
         }
         .btn-down{
             height: 52px;
-            background: url("../../imgs/btn_down.png") center no-repeat;
+            background: url("../imgs/btn_down.png") center no-repeat;
             cursor: pointer;
         }
     }
@@ -565,7 +565,7 @@ select::-ms-expand{
         bottom: 25px;
         width: 79px;
         height: 30px;
-        background: url("../../imgs/btn_more.png") no-repeat;
+        background: url("../imgs/btn_more.png") no-repeat;
         cursor: pointer;
     }
     .title{
@@ -638,12 +638,12 @@ select::-ms-expand{
     .btn-arrow-left{
         left: -54px;
         top: 0;
-        background: url("../../imgs/arrow_left_md.png") center no-repeat;
+        background: url("../imgs/arrow_left_md.png") center no-repeat;
     }
     .btn-arrow-right{
         top: 0;
         right: 0;
-        background: url("../../imgs/arrow_right_md.png") center no-repeat;
+        background: url("../imgs/arrow_right_md.png") center no-repeat;
     }
     .unslider-arrow, .next,.prev {
         position: absolute;
@@ -653,10 +653,10 @@ select::-ms-expand{
         height: 48px;
     }
     .next {
-        background: url("../../imgs/arrow_right_sm.png");
+        background: url("../imgs/arrow_right_sm.png");
     }
     .prev{
-        background: url("../../imgs/arrow_left_sm.png");
+        background: url("../imgs/arrow_left_sm.png");
     }
 
     .m-link{
@@ -680,7 +680,7 @@ select::-ms-expand{
             .icon{
                 width: 35px;
                 height: 35px;
-                background: url("../../imgs/link.png") no-repeat;
+                background: url("../imgs/link.png") no-repeat;
                 vertical-align: bottom;
                 margin-right: 29px;
             }
@@ -703,7 +703,7 @@ select::-ms-expand{
                 color: #b2b2b2;
                 padding: 0 43px 0 30px;
                 appearance: none;
-                background: url("../../imgs/icon_select.png") no-repeat scroll right center #ffffff;
+                background: url("../imgs/icon_select.png") no-repeat scroll right center #ffffff;
                 .u-select-content{
                     display: none;
                     position: absolute;
@@ -719,7 +719,7 @@ select::-ms-expand{
                         padding-right: 5px;
                         width: 19px;
                         height: 13px;
-                        background: url("../../imgs/icon_right.jpg") no-repeat;
+                        background: url("../imgs/icon_right.jpg") no-repeat;
                     }
                 }
                 a{
