@@ -72,7 +72,7 @@ select::-ms-expand{
                 border-bottom: 1px solid #015a92;
                 cursor: pointer;
             }
-            .u-hd-btn.select{
+            .u-hd-btn:hover{
                 background-color: #0067b7;
             }
             .u-hd-btn:last-child{
@@ -98,11 +98,14 @@ select::-ms-expand{
                 height: 110px;
                 vertical-align: middle;
             }
+            .archives:hover{
+                background-color: #0067b7;
+            }
         }
     }
     .m-ft{
         height: 333px;
-        background: url('./../imgs//bg.png') no-repeat;
+        background: url('./../imgs/bg.png') no-repeat;
         background-color: #0067b7;
         .z-padding-l{
             padding-left: 678px;

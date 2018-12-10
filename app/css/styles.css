@@ -251,7 +251,7 @@ select::-ms-expand {
       box-shadow: 1px 0 0 #0193ea,  2px 0 0 #0189bd,  1px 0 0 #0193ea inset,  2px 0 0 #0189bd inset, 0 1px 0 #0193ea inset,  0 2px 0 #0189bd inset;
       border-bottom: 1px solid #015a92;
       cursor: pointer; }
-    .g-hd .m-bd .m-mn .u-hd-btn.select {
+    .g-hd .m-bd .m-mn .u-hd-btn:hover {
       background-color: #0067b7; }
     .g-hd .m-bd .m-mn .u-hd-btn:last-child {
       border-right: 1px solid #015a92; }
@@ -267,10 +267,12 @@ select::-ms-expand {
       box-shadow: 1px 0 0 #0193ea,  2px 0 0 #0189bd,  1px 0 0 #0193ea inset,  2px 0 0 #0189bd inset;
       height: 110px;
       vertical-align: middle; }
+    .g-hd .m-bd .m-sd .archives:hover {
+      background-color: #0067b7; }
 
 .g-hd .m-ft {
   height: 333px;
-  background: url("./../imgs//bg.png") no-repeat;
+  background: url("./../imgs/bg.png") no-repeat;
   background-color: #0067b7; }
   .g-hd .m-ft .z-padding-l {
     padding-left: 678px; }
