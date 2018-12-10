@@ -9,6 +9,7 @@ select::-ms-expand{
     display: none;
 }
 
+
 .g-hd{
     .m-hd{
         position: relative;
@@ -38,6 +39,9 @@ select::-ms-expand{
                 left: 33px;
                 bottom: -9px;
             }
+        }
+        .btn-nav{
+            cursor: pointer;
         }
     }
     .m-bd{

@@ -13,9 +13,9 @@
         <div class="m-hd f-cb">
             <img class="u-logo" src="./imgs/log.png" />
             <div class="m-hd-nav">
-                <span class="select">联系我们</span>
-                <span>部门管理</span>
-                <span>网上表单</span>
+                <span class="btn-nav select">联系我们</span>
+                <span class="btn-nav">部门管理</span>
+                <span class="btn-nav">网上表单</span>
             </div>
         </div>
         <div class="m-bd f-cb">
@@ -557,6 +557,10 @@
                 e.stopPropagation();
                 $(this).parents(".f-ib").siblings().children(".u-select").children().hide();
                 $(this).children(".u-select-content").toggle();
+            })
+            $(".btn-nav").on("click",function(){
+                $(this).addClass("select");
+                $(this).siblings().removeClass("select");
             })
         });
     </script>

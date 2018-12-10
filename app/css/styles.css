@@ -227,6 +227,8 @@ select::-ms-expand {
       height: 11px;
       left: 33px;
       bottom: -9px; }
+  .g-hd .m-hd .btn-nav {
+    cursor: pointer; }
 
 .g-hd .m-bd {
   height: 158px;
