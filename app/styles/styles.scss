@@ -329,11 +329,11 @@ select::-ms-expand{
 }
 
 .g-bd{
-    width: 1280px;
+    max-width: 1204px;
     margin: 0 auto;
-    padding: 25px 42px 0 36px;
+    padding: 25px 40px 0px 36px;
     .g-mn{
-        width: 1022px;
+        width: 1020px;
         .btn-more{
             position: absolute;
             right: 0;
@@ -345,7 +345,7 @@ select::-ms-expand{
         }
         .m-tab{
             width: 484px;
-            margin-right: 28px;
+            margin-right: 26px;
             .m-tab-header{
                 position: relative;
                 height: 78px;
@@ -574,16 +574,18 @@ select::-ms-expand{
 }
 
 .g-bd-ex{
-    margin: 33px 199px 0px 188px;
+    width: 1204px;
+    margin: 0 auto;
+    padding: 0px 40px 0px 36px;
     .m-header{
-        height: 90px;
+        height: 78px;
         position: relative;
     }
     .unslide, .unslider {
         overflow: auto;
         margin: 0;
         padding: 0;
-        width: 1542px;
+        width: 1280px;
     }
     .btn-more{
         position: absolute;
@@ -595,10 +597,10 @@ select::-ms-expand{
         cursor: pointer;
     }
     .title{
-        width: 139px;
-        height: 90px;
-        line-height: 90px;
-        font-size: 30px;
+        width: 108px;
+        height: 78px;
+        line-height: 78px;
+        font-size: 22px;
         color: #434343;
         margin-right: 18px;
         text-align: center;
@@ -612,12 +614,12 @@ select::-ms-expand{
     .m-body{
         padding-top: 20px;
         border-top: 1px solid #bfbfbf;
-        width: 1480px;
+        width: 1280px;
         height: 394px;
         margin-left: 55px;
         position: relative;
         .m-card{
-            width: 449px;
+            width: 334px;
             margin-right: 44px;
             .m-card-img{
                 width: 334px;
@@ -625,12 +627,12 @@ select::-ms-expand{
                 vertical-align: bottom;
             }
             .desc{
-                width: 420px;
+                width: 334px;
                 height: 71px;
                 background: #f3f3f3;
                 padding: 20px 10px 0 16px;
                 .tit{
-                    font-size: 30px;
+                    font-size: 22px;
                     color: #434343;
                     overflow: hidden;
                     white-space: nowrap;
@@ -638,8 +640,8 @@ select::-ms-expand{
                     font-weight: bold;
                 }
                 .summary{
-                    font-size: 28px;
-                    max-width: 410px;
+                    font-size: 20px;
+                    max-width: 334px;
                     overflow: hidden;
                     margin-top: 6px;
                     white-space: nowrap;

@@ -462,11 +462,11 @@ select::-ms-expand {
   background: #f0f0f0; }
 
 .g-bd {
-  width: 1280px;
+  max-width: 1204px;
   margin: 0 auto;
-  padding: 25px 42px 0 36px; }
+  padding: 25px 40px 0px 36px; }
   .g-bd .g-mn {
-    width: 1022px; }
+    width: 1020px; }
     .g-bd .g-mn .btn-more {
       position: absolute;
       right: 0;
@@ -477,7 +477,7 @@ select::-ms-expand {
       cursor: pointer; }
     .g-bd .g-mn .m-tab {
       width: 484px;
-      margin-right: 28px; }
+      margin-right: 26px; }
       .g-bd .g-mn .m-tab .m-tab-header {
         position: relative;
         height: 78px; }
@@ -661,15 +661,17 @@ select::-ms-expand {
       cursor: pointer; }
 
 .g-bd-ex {
-  margin: 33px 199px 0px 188px; }
+  width: 1204px;
+  margin: 0 auto;
+  padding: 0px 40px 0px 36px; }
   .g-bd-ex .m-header {
-    height: 90px;
+    height: 78px;
     position: relative; }
   .g-bd-ex .unslide, .g-bd-ex .unslider {
     overflow: auto;
     margin: 0;
     padding: 0;
-    width: 1542px; }
+    width: 1280px; }
   .g-bd-ex .btn-more {
     position: absolute;
     right: 0;
@@ -679,10 +681,10 @@ select::-ms-expand {
     background: url("../imgs/btn_more.png") no-repeat;
     cursor: pointer; }
   .g-bd-ex .title {
-    width: 139px;
-    height: 90px;
-    line-height: 90px;
-    font-size: 30px;
+    width: 108px;
+    height: 78px;
+    line-height: 78px;
+    font-size: 22px;
     color: #434343;
     margin-right: 18px;
     text-align: center;
@@ -694,32 +696,32 @@ select::-ms-expand {
   .g-bd-ex .m-body {
     padding-top: 20px;
     border-top: 1px solid #bfbfbf;
-    width: 1480px;
+    width: 1280px;
     height: 394px;
     margin-left: 55px;
     position: relative; }
     .g-bd-ex .m-body .m-card {
-      width: 449px;
+      width: 334px;
       margin-right: 44px; }
       .g-bd-ex .m-body .m-card .m-card-img {
         width: 334px;
         height: 318px;
         vertical-align: bottom; }
       .g-bd-ex .m-body .m-card .desc {
-        width: 420px;
+        width: 334px;
         height: 71px;
         background: #f3f3f3;
         padding: 20px 10px 0 16px; }
         .g-bd-ex .m-body .m-card .desc .tit {
-          font-size: 30px;
+          font-size: 22px;
           color: #434343;
           overflow: hidden;
           white-space: nowrap;
           text-overflow: ellipsis;
           font-weight: bold; }
         .g-bd-ex .m-body .m-card .desc .summary {
-          font-size: 28px;
-          max-width: 410px;
+          font-size: 20px;
+          max-width: 334px;
           overflow: hidden;
           margin-top: 6px;
           white-space: nowrap;
