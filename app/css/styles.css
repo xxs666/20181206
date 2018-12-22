@@ -196,27 +196,33 @@ a, a:hover {
   -o-user-select: none;
   user-select: none; }
 
+html, body {
+  width: 100%;
+  height: 100%; }
+
 body {
-  min-width: 1920px; }
+  min-width: 1280px; }
 
 select::-ms-expand {
   display: none; }
 
 .g-hd .m-hd {
   position: relative;
-  max-width: 1920px;
-  height: 148px;
+  max-width: 1280px;
+  height: 144px;
   color: #ffffff;
   margin: 0 auto; }
   .g-hd .m-hd .u-logo {
-    width: 471px;
-    margin-left: 320px; }
+    position: relative;
+    top: 20px;
+    width: 410px;
+    margin-left: 20px; }
   .g-hd .m-hd .m-hd-nav {
     position: absolute;
-    right: 159px;
+    right: 44px;
     bottom: 16px;
     color: #434343;
-    font-size: 20px; }
+    font-size: 18px; }
     .g-hd .m-hd .m-hd-nav span {
       position: relative;
       margin-left: 57px; }
