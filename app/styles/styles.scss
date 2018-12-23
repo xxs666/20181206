@@ -2,7 +2,6 @@
 @import './function.scss';
 
 html, body{
-    width: 100%;
     height: 100%;
 }
 
@@ -95,13 +94,12 @@ select::-ms-expand{
             height: 138px;
             line-height: 138px;
             .archives{
-                padding: 14px 42px 14px 54px;
+                padding: 20px 42px 20px 54px;
                 border-right: 1px solid #015a92;
                 box-shadow: 1px 0 0 #0193ea, 
                             2px 0 0 #0189bd, 
                             1px 0 0 #0193ea inset, 
                             2px 0 0 #0189bd inset;
-                height: 110px;
                 vertical-align: middle;
             }
             .archives:hover{
@@ -227,7 +225,7 @@ select::-ms-expand{
             border: 1px solid #0075cc !important;
         }
         .m-up{
-            width: 1280px;
+            width: 1220px;
             height: 76px;
             margin: 0 auto;
             border-bottom: 1px solid #d2d2d2;
@@ -279,7 +277,7 @@ select::-ms-expand{
             }
         }
         .m-down{
-            width: 1280px;
+            width: 1206px;
             color: #37668a;
             font-size: 22px;
             margin: 0 auto;
@@ -584,7 +582,6 @@ select::-ms-expand{
         overflow: auto;
         margin: 0;
         padding: 0;
-        width: 1280px;
     }
     .btn-more{
         position: absolute;
