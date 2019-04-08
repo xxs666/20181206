@@ -218,19 +218,19 @@ select::-ms-expand {
     margin-left: 20px; }
   .g-hd .m-hd .m-hd-nav {
     position: absolute;
-    right: 44px;
+    right: 77px;
     bottom: 16px;
     color: #434343;
     font-size: 18px; }
     .g-hd .m-hd .m-hd-nav span {
       position: relative;
-      margin-left: 57px; }
+      margin-left: 43px; }
     .g-hd .m-hd .m-hd-nav .select:after {
       content: url("../imgs/triangle.png");
       position: absolute;
       width: 15px;
       height: 11px;
-      left: 33px;
+      left: 30px;
       bottom: -11px; }
   .g-hd .m-hd .btn-nav {
     cursor: pointer; }
@@ -240,15 +240,15 @@ select::-ms-expand {
   background-color: #027bcc;
   color: #ffffff; }
   .g-hd .m-bd .m-con {
-    width: 1280px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 1280px; }
   .g-hd .m-bd .m-mn {
     margin-left: 20px;
     font-size: 0; }
     .g-hd .m-bd .m-mn .u-hd-btn {
       font-size: 20px;
       background-color: #027dcb;
-      width: 160px;
+      width: 142px;
       height: 68px;
       line-height: 68px;
       text-align: center;
@@ -267,7 +267,7 @@ select::-ms-expand {
     height: 138px;
     line-height: 138px; }
     .g-hd .m-bd .m-sd .archives {
-      padding: 20px 42px 20px 54px;
+      padding: 20px 12px 20px 12px;
       border-right: 1px solid #015a92;
       box-shadow: 1px 0 0 #0193ea,  2px 0 0 #0189bd,  1px 0 0 #0193ea inset,  2px 0 0 #0189bd inset;
       vertical-align: middle; }
@@ -281,9 +281,21 @@ select::-ms-expand {
     width: 1280px;
     height: 306px;
     background: url("./../imgs/bg.png") no-repeat;
-    margin: 0 auto; }
+    margin: 0 auto;
+    position: relative; }
+  .g-hd .m-ft .icon-expand {
+    position: absolute;
+    width: 69px;
+    height: 18px;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url("./../imgs//icon_expand.png");
+    cursor: pointer; }
   .g-hd .m-ft .z-padding-l {
-    padding-left: 337px; }
+    padding-left: 355px; }
   .g-hd .m-ft .z-margin {
     margin-top: 94px;
     margin-bottom: 34px;
@@ -326,7 +338,6 @@ select::-ms-expand {
   .g-hd .m-ft .u-checkbox {
     position: relative;
     margin-top: 3px;
-    margin-left: 19px;
     float: left;
     font-size: 22px; }
   .g-hd .m-ft .u-checkbox input[type=checkbox] {
@@ -360,11 +371,14 @@ select::-ms-expand {
   .g-hd .m-ft .u-radio-item {
     margin-left: 16px;
     float: left;
-    color: #ffffff; }
+    color: #ffffff;
+    width: 70px; }
   .g-hd .m-ft .z-margin-r {
-    margin-right: 21px; }
+    margin-right: 15px; }
 
 .g-hd .m-ft-ex {
+  display: none;
+  overflow: hidden;
   height: 282px;
   background-color: #f9f9f9; }
   .g-hd .m-ft-ex input:focus, .g-hd .m-ft-ex select:focus {

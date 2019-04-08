@@ -16,6 +16,7 @@
                 <span class="btn-nav select">联系我们</span>
                 <span class="btn-nav">部门管理</span>
                 <span class="btn-nav">网上表单</span>
+                <span class="btn-nav">管理员</span>
             </div>
         </div>
         <div class="m-bd f-cb">
@@ -40,19 +41,25 @@
                         <div class="f-ib u-hd-btn">
                             声像档案
                         </div>
-                    </div>
-                    <div class="g-second">
                         <div class="f-ib u-hd-btn">
                             荣誉档案
                         </div>
+                    </div>
+                    <div class="g-second">
                         <div class="f-ib u-hd-btn">
-                            地形图
+                            科研档案
                         </div>
                         <div class="f-ib u-hd-btn">
                             标准规范
                         </div>
                         <div class="f-ib u-hd-btn">
+                            地形图
+                        </div>
+                        <div class="f-ib u-hd-btn">
                             科技图书
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            科技资料
                         </div>
                         <div class="f-ib u-hd-btn">
                             科技文献
@@ -89,7 +96,7 @@
                         <img src="./imgs/search.png" />
                     </div>
                 </div>
-                <div class="z-padding-l">
+                <div class="z-padding-l f-cb">
                     <div class="u-checkbox z-margin-r">
                         <div class="u-checkbox-item z-circle">
                             <input type="checkbox" name="all" value="all" id="check-all" defaultChecked="false" />
@@ -145,13 +152,56 @@
                     </div>
                     <div class="u-checkbox">
                         <div class="u-checkbox-item">
-                            <input type="checkbox" name="ss" value="rongyu" class="check-item" id="rongyu"
+                            <input type="checkbox" name="ss" value="ziliao" class="check-item" id="ziliao"
                                 defaultChecked="false" />
-                            <label for="rongyu"></label>
+                            <label for="ziliao"></label>
                         </div>
-                        <label for="rongyu" class="u-radio-item">荣誉</label>
+                        <label for="ziliao" class="u-radio-item">荣誉</label>
                     </div>
                 </div>
+                <div class="z-padding-l f-cb" style="margin: 12px 0 0 123px">
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="rongyu" class="check-item" id="keyan"
+                                defaultChecked="false" />
+                            <label for="keyan"></label>
+                        </div>
+                        <label for="keyan" class="u-radio-item">科研</label>
+                    </div>
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="biaozhun" class="check-item" id="biaozhun"
+                                defaultChecked="false" />
+                            <label for="biaozhun"></label>
+                        </div>
+                        <label for="biaozhun" class="u-radio-item">标准</label>
+                    </div>
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="dixingtu" class="check-item" id="dixingtu"
+                                defaultChecked="false" />
+                            <label for="dixingtu"></label>
+                        </div>
+                        <label for="dixingtu" class="u-radio-item">地形图</label>
+                    </div>
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="tushu" class="check-item" id="tushu"
+                                defaultChecked="false" />
+                            <label for="tushu"></label>
+                        </div>
+                        <label for="tushu" class="u-radio-item">图书</label>
+                    </div>
+                    <div class="u-checkbox">
+                        <div class="u-checkbox-item">
+                            <input type="checkbox" name="ss" value="ziliao" class="check-item" id="ziliao"
+                                defaultChecked="false" />
+                            <label for="ziliao"></label>
+                        </div>
+                        <label for="ziliao" class="u-radio-item">资料</label>
+                    </div>
+                </div>
+                <div class="icon-expand"></div>
             </div>
         </div>
         <div class="m-ft-ex">
@@ -585,6 +635,9 @@
                 }
             })
         });
+        $(".icon-expand").on("click", function () {
+            $(".m-ft-ex").slideToggle();
+        })
     </script>
 </body>
 
