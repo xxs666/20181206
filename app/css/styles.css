@@ -283,7 +283,7 @@ select::-ms-expand {
     background: url("./../imgs/bg.png") no-repeat;
     margin: 0 auto;
     position: relative; }
-  .g-hd .m-ft .icon-expand {
+  .g-hd .m-ft .icon-expand, .g-hd .m-ft .icon-packup {
     position: absolute;
     width: 69px;
     height: 18px;
@@ -292,8 +292,13 @@ select::-ms-expand {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    background: url("./../imgs//icon_expand.png");
+    background: url("./../imgs/icon_expand.png");
     cursor: pointer; }
+  .g-hd .m-ft .icon-expand {
+    display: none;
+    background: url("./../imgs/icon_expand.png"); }
+  .g-hd .m-ft .icon-packup {
+    background: url("./../imgs/icon_packup.png"); }
   .g-hd .m-ft .z-padding-l {
     padding-left: 355px; }
   .g-hd .m-ft .z-margin {
@@ -627,6 +632,8 @@ select::-ms-expand {
       z-index: 100;
       border-bottom: 5px solid #00a0e9;
       font-weight: 400; }
+    .g-bd .g-mn .m-down .title-lg {
+      width: 210px; }
     .g-bd .g-mn .m-down .m-body {
       padding-top: 20px;
       border-top: 1px solid #bfbfbf;

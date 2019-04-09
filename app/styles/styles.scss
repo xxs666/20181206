@@ -117,15 +117,22 @@ select::-ms-expand{
             margin: 0 auto;
             position: relative;
         }
-        .icon-expand{
+        .icon-expand, .icon-packup{
             position: absolute;
             width: 69px;
             height: 18px;
             bottom: 0;
             left: 50%;
             transform: translateX(-50%);
-            background: url('./../imgs//icon_expand.png');
+            background: url('./../imgs/icon_expand.png');
             cursor: pointer;
+        }
+        .icon-expand{
+            display: none;
+            background: url('./../imgs/icon_expand.png');
+        }
+        .icon-packup{
+            background: url('./../imgs/icon_packup.png');
         }
         .z-padding-l{
             padding-left: 355px;
@@ -526,6 +533,9 @@ select::-ms-expand{
                 z-index: 100;
                 border-bottom: 5px solid #00a0e9;
                 font-weight: 400;
+            }
+            .title-lg{
+                width: 210px;
             }
             .m-body{
                 padding-top: 20px;
