@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="g-hd">
+        <div class="m-hd f-cb">
+            <img class="u-logo" src="./imgs/log.png" />
+            <div class="m-hd-nav">
+                <span class="btn-nav select">联系我们</span>
+                <span class="btn-nav">部门管理</span>
+                <span class="btn-nav">网上表单</span>
+                <span class="btn-nav">管理员</span>
+            </div>
+        </div>
+        <div class="m-bd f-cb">
+            <div class="m-con f-cb">
+                <div class="m-mn f-fl">
+                    <div class="g-first">
+                        <div class="f-ib u-hd-btn">
+                            工程图纸
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            工程档案
+                        </div>
+                        <div class="f-ib u-hd-btn active">
+                            三维档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            公文档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            合同档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            声像档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            荣誉档案
+                        </div>
+                    </div>
+                    <div class="g-second">
+                        <div class="f-ib u-hd-btn">
+                            科研档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            标准规范
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            地形图
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            科技图书
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            科技资料
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            科技文献
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            竞争情报
+                        </div>
+                    </div>
+                </div>
+                <div class="m-sd">
+                    <img class="archives" src="imgs/archives.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="g-preview">
+        <div class="m-3d">
+            <div class="m-con">
+                <div class="m-header">
+                    <div class="title">
+                        三维档案网上展厅
+                    </div>
+                </div>
+                <div class="m-body">
+                    <div class="unslide unslide-3 f-ib">
+                        <div class="unslider-vertical" style="position: relative; overflow: hidden; height:630px;">
+                            <ul class="unslider-wrap unslider-carousel" style="left: 0px; height:100%">
+                                <li class="unslider-active">
+                                    <div class="f-cb">
+                                        <img src="./imgs/1.jpg" class="video-con" />
+                                        <div class="desc">
+                                            水电站三维模型
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="f-cb">
+                                        <img src="./imgs/1.jpg" class="video-con" />
+                                        <div class="desc">
+                                            水电站三维模型
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="f-cb">
+                                        <img src="./imgs/1.jpg" class="video-con" />
+                                        <div class="desc">
+                                            水电站三维模型
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="btn-nav">
+                        <div class="btn-arrow btn-arrow-up"></div>
+                        <div class="btn-arrow btn-arrow-down"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/unslider.js"></script>
+    <script type="text/javascript">
+        var slide3 = $('.unslide-3').unslider({
+            nav: false,
+            arrows: false,
+            infinite: true,
+            animation: "vertical"
+        });
+        $(".m-3d .btn-arrow-up").on("click", function () {
+            slide3.data('unslider').prev();
+        })
+        $(".m-3d .btn-arrow-down").on("click", function () {
+            slide3.data('unslider').next();
+        })
+    </script>
+</body>
+
+</html>

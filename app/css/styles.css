@@ -258,6 +258,8 @@ select::-ms-expand {
       cursor: pointer; }
     .g-hd .m-bd .m-mn .u-hd-btn:hover {
       background-color: #0067b7; }
+    .g-hd .m-bd .m-mn .u-hd-btn.active {
+      background-color: #0067b7; }
     .g-hd .m-bd .m-mn .u-hd-btn:last-child {
       border-right: 1px solid #015a92; }
     .g-hd .m-bd .m-mn .g-second .u-hd-btn {
@@ -883,3 +885,58 @@ select::-ms-expand {
   margin: 0;
   padding: 0;
   border: none; }
+
+.g-preview {
+  background: #efefee; }
+  .g-preview .m-3d {
+    width: 1280px;
+    margin: 0 auto; }
+    .g-preview .m-3d .m-con {
+      margin: 0 77px 0 24px;
+      padding: 0 92px 0 60px;
+      background: #FFF;
+      height: 746px; }
+      .g-preview .m-3d .m-con .m-header {
+        height: 78px;
+        position: relative;
+        border-bottom: 1px solid #bfbfbf; }
+      .g-preview .m-3d .m-con .title {
+        display: inline-block;
+        height: 78px;
+        line-height: 78px;
+        font-size: 22px;
+        color: #434343;
+        margin-right: 18px;
+        text-align: center;
+        position: relative;
+        top: -2px;
+        z-index: 100;
+        border-bottom: 5px solid #00a0e9;
+        font-weight: 400; }
+      .g-preview .m-3d .m-con .title-lg {
+        width: 210px; }
+      .g-preview .m-3d .m-con .m-body {
+        position: relative;
+        padding-top: 28px; }
+      .g-preview .m-3d .m-con .video-con {
+        width: 948px;
+        height: 572px; }
+      .g-preview .m-3d .m-con .desc {
+        width: 948px;
+        height: 58px;
+        line-height: 58px;
+        font-size: 22px;
+        color: #434343;
+        text-align: center; }
+      .g-preview .m-3d .m-con .btn-nav {
+        position: absolute;
+        bottom: 60px;
+        right: 0; }
+        .g-preview .m-3d .m-con .btn-nav .btn-arrow {
+          width: 64px;
+          height: 64px;
+          margin: 16px 0; }
+        .g-preview .m-3d .m-con .btn-nav .btn-arrow-up {
+          background: url("../imgs/btn-arrow-up.png"); }
+        .g-preview .m-3d .m-con .btn-nav .btn-arrow-down {
+          background: url("../imgs/btn-arrow-down.png"); }
