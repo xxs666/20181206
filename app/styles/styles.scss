@@ -909,9 +909,29 @@ select::-ms-expand{
         width: 1280px;
         margin: 0 auto;
         .m-con{
+            position: relative;
             margin: 0 224px 0 24px;
             background: #FFF;
             height: 884px;
+            .m-right{
+                position: absolute;
+                right: -138px;
+                top: 32px;
+                .tab-item{
+                    width: 126px;
+                    height: 38px;
+                    border: 1px solid #bfbfbf;
+                    font-size: 16px;
+                    line-height: 38px;
+                    text-align: center;
+                    color: #474747;
+                    margin-bottom: 10px;
+                    background: #fff;
+                }
+                .tab-item.select{
+                    background: #dcdcdc;
+                }
+            }
             .m-header{
                 margin: 0 60px 0 60px;
                 height: 78px;
