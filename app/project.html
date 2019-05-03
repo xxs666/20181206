@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="g-hd">
+        <div class="m-hd f-cb">
+            <img class="u-logo" src="./imgs/log.png" />
+            <div class="m-hd-nav">
+                <span class="btn-nav select">联系我们</span>
+                <span class="btn-nav">部门管理</span>
+                <span class="btn-nav">网上表单</span>
+                <span class="btn-nav">管理员</span>
+            </div>
+        </div>
+        <div class="m-bd f-cb">
+            <div class="m-con f-cb">
+                <div class="m-mn f-fl">
+                    <div class="g-first">
+                        <div class="f-ib u-hd-btn">
+                            工程图纸
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            工程档案
+                        </div>
+                        <div class="f-ib u-hd-btn active">
+                            三维档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            公文档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            合同档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            声像档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            荣誉档案
+                        </div>
+                    </div>
+                    <div class="g-second">
+                        <div class="f-ib u-hd-btn">
+                            科研档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            标准规范
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            地形图
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            科技图书
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            科技资料
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            科技文献
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            竞争情报
+                        </div>
+                    </div>
+                </div>
+                <div class="m-sd">
+                    <img class="archives" src="imgs/archives.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="g-preview">
+        <div class="m-project">
+            <div class="m-con">
+                <div class="m-header">
+                    <div class="title">
+                        典型工程
+                    </div>
+                </div>
+                <div class="m-body">
+                    <div class="unslide unslide-1 f-ib">
+                        <div class="unslider-horizontal" style="position: relative; overflow: hidden; height: 394px;">
+                            <ul class="unslider-wrap unslider-carousel" style="left: 0px; height:100%">
+                                <li class="unslider-active">
+                                    <div class="m-card">
+                                        <img src="./imgs/1.jpg" />
+                                        <div class="desc">
+                                            <div class="desc-title">微电子学院召开工作推动会</div>
+                                            <div class="desc-content">微电子学院召开工作推动会微电子学院召开工作推动会</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="m-card">
+                                        <img src="./imgs/2.jpg" />
+                                        <div class="desc">
+                                            <div class="desc-title">微电子学院召开工作推动会</div>
+                                            <div class="desc-content">微电子学院召开工作推动会微电子学院召开工作推动会</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="m-card">
+                                        <img src="./imgs/3.jpg" />
+                                        <div class="desc">
+                                            <div class="desc-title">微电子学院召开工作推动会</div>
+                                            <div class="desc-content">微电子学院召开工作推动会微电子学院召开工作推动会</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-arrow btn-arrow-left"></div>
+                        <div class="btn-arrow btn-arrow-right"></div>
+                    </div>
+                </div>
+                <div class="m-right">
+                    <div class="tab-item">水电工程</div>
+                    <div class="tab-item">新能源工程</div>
+                    <div class="tab-item select">水环境工程</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/unslider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var slide1 = $('.unslide-1').unslider({
+                nav: false,
+                arrows: false
+            });
+            $(".btn-arrow-left").on("click", function () {
+                slide1.data('unslider').prev();
+            })
+            $(".btn-arrow-right").on("click", function () {
+                slide1.data('unslider').next();
+            })
+        })
+    </script>
+</body>
+
+</html>
