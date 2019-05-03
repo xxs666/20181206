@@ -1167,8 +1167,7 @@ select::-ms-expand {
     .g-preview .m-project .m-con {
       position: relative;
       margin: 0 224px 0 24px;
-      background: #FFF;
-      height: 884px; }
+      background: #FFF; }
       .g-preview .m-project .m-con .m-right {
         position: absolute;
         right: -138px;
@@ -1210,11 +1209,13 @@ select::-ms-expand {
         margin: 0 15px;
         position: relative;
         padding-top: 28px; }
+        .g-preview .m-project .m-con .m-body .unslider {
+          float: left;
+          position: relative; }
         .g-preview .m-project .m-con .m-body .unslider, .g-preview .m-project .m-con .m-body .unslide {
           position: relative;
           width: 628px;
-          height: 430px;
-          display: inline-block; }
+          height: 430px; }
         .g-preview .m-project .m-con .m-body .unslide:hover .btn-arrow {
           display: block; }
         .g-preview .m-project .m-con .m-body .unslide:hover .desc {
@@ -1261,8 +1262,60 @@ select::-ms-expand {
               font-size: 14px;
               margin: 0 0 5px 30px; }
         .g-preview .m-project .m-con .m-body .right-nav {
-          display: inline-block;
-          border: 1px solid red;
+          position: relative;
+          top: -10px;
+          float: left;
+          margin-left: 5px;
+          padding: 10px 8px;
           width: 350px;
-          height: 446px;
+          height: 426px;
           background: #faf8f8; }
+          .g-preview .m-project .m-con .m-body .right-nav .nav-left {
+            float: left;
+            width: 116px;
+            height: 78px;
+            margin-bottom: 10px; }
+            .g-preview .m-project .m-con .m-body .right-nav .nav-left img {
+              width: 100%;
+              height: 100%; }
+          .g-preview .m-project .m-con .m-body .right-nav .nav-right {
+            float: left;
+            margin-left: 12px;
+            width: 182px;
+            height: 66px; }
+            .g-preview .m-project .m-con .m-body .right-nav .nav-right .nav-title {
+              font-size: 14px;
+              font-weight: bold;
+              margin-bottom: 5px; }
+            .g-preview .m-project .m-con .m-body .right-nav .nav-right .nav-content {
+              display: -webkit-box;
+              -webkit-line-clamp: 3;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+        .g-preview .m-project .m-con .m-body .m-content {
+          padding: 0 20px;
+          margin-top: 26px;
+          height: 434px;
+          overflow: hidden; }
+          .g-preview .m-project .m-con .m-body .m-content .text-title {
+            font-size: 24px;
+            margin-bottom: 50px; }
+          .g-preview .m-project .m-con .m-body .m-content p {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 30px; }
+        .g-preview .m-project .m-con .m-body .mask {
+          width: 100%;
+          background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0) 0%, #fff 70%);
+          padding-bottom: 6px;
+          height: 60px;
+          position: relative;
+          top: -85px; }
+        .g-preview .m-project .m-con .m-body .btn-expand {
+          position: relative;
+          top: -65px;
+          margin: 0 auto;
+          background: url("../imgs/icon_expand.png");
+          width: 69px;
+          height: 18px;
+          cursor: pointer; }
