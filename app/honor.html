@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="g-hd">
+        <div class="m-hd f-cb">
+            <img class="u-logo" src="./imgs/log.png" />
+            <div class="m-hd-nav">
+                <span class="btn-nav select">联系我们</span>
+                <span class="btn-nav">部门管理</span>
+                <span class="btn-nav">网上表单</span>
+                <span class="btn-nav">管理员</span>
+            </div>
+        </div>
+        <div class="m-bd f-cb">
+            <div class="m-con f-cb">
+                <div class="m-mn f-fl">
+                    <div class="g-first">
+                        <div class="f-ib u-hd-btn">
+                            工程图纸
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            工程档案
+                        </div>
+                        <div class="f-ib u-hd-btn active">
+                            三维档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            公文档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            合同档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            声像档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            荣誉档案
+                        </div>
+                    </div>
+                    <div class="g-second">
+                        <div class="f-ib u-hd-btn">
+                            科研档案
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            标准规范
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            地形图
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            科技图书
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            科技资料
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            科技文献
+                        </div>
+                        <div class="f-ib u-hd-btn">
+                            竞争情报
+                        </div>
+                    </div>
+                </div>
+                <div class="m-sd">
+                    <img class="archives" src="imgs/archives.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="g-preview">
+        <div class="m-honor">
+            <div class="m-con">
+                <div class="m-header">
+                    <div class="title">
+                        荣誉档案网上展厅
+                    </div>
+                </div>
+                <div class="m-body">
+                    <div class="banner">
+                        <div id="slide3d" class="slide-carousel slide-3d">
+                            <ul class="item-list clearfix">
+                                <li class="item0">
+                                    <div class="item-content">
+                                        <a href="javascript:void(0);">
+                                            <img class="cover-img" src="./imgs/1.jpg" alt="">
+                                        </a>
+                                        <div class="summary">
+                                            工程地质资料是水利工程规划中必须先行研究的又一重要内容，以判别修建工程的可能性和为水工建筑物选择有利的地基条件并研究必要的补强
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item1">
+                                    <div class="item-content">
+                                        <a href="javascript:void(0);">
+                                            <img class="cover-img" src="./imgs/2.jpg" alt="">
+                                        </a>
+                                        <div class="summary">
+                                            工程地质资料是水利工程规划中必须先行研究的又一重要内容，以判别修建工程的可能性和为水工建筑物选择有利的地基条件并研究必要的补强
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item2">
+                                    <div class="item-content">
+                                        <a href="javascript:void(0);">
+                                            <img class="cover-img" src="./imgs/3.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="summary">
+                                        工程地质资料是水利工程规划中必须先行研究的又一重要内容，以判别修建工程的可能性和为水工建筑物选择有利的地基条件并研究必要的补强
+                                    </div>
+                                </li>
+                                <li class="item3">
+                                    <div class="item-content">
+                                        <a href="javascript:void(0);">
+                                            <img class="cover-img" src="./imgs/4.jpg" alt="">
+                                        </a>
+                                        <div class="summary">
+                                            工程地质资料是水利工程规划中必须先行研究的又一重要内容，以判别修建工程的可能性和为水工建筑物选择有利的地基条件并研究必要的补强
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item4">
+                                    <div class="item-content">
+                                        <a href="javascript:void(0);">
+                                            <img class="cover-img" src="./imgs/5.jpg" alt="">
+                                        </a>
+                                        <div class="summary">
+                                            工程地质资料是水利工程规划中必须先行研究的又一重要内容，以判别修建工程的可能性和为水工建筑物选择有利的地基条件并研究必要的补强
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slide.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#slide3d').slideCarsousel({
+                slideType: '3d',
+                isAutoChange: false,
+                indicatorEvent: 'mouseover',
+                callbackFunc: function (e) {
+                    console.log(e);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 @import './reset.scss';
 @import './function.scss';
+@import './slide.scss';
 
 html, body{
     height: 100%;
@@ -901,6 +902,42 @@ select::-ms-expand{
                 .btn-arrow-down{
                     background: url('../imgs/btn-arrow-down.png')
                 }
+            }
+        }
+    }
+    .m-honor{
+        width: 1280px;
+        margin: 0 auto;
+        .m-con{
+            margin: 0 224px 0 24px;
+            background: #FFF;
+            height: 884px;
+            .m-header{
+                margin: 0 60px 0 60px;
+                height: 78px;
+                position: relative;
+                border-bottom: 1px solid #bfbfbf;
+            }
+            .title{
+                display: inline-block;
+                height: 78px;
+                line-height: 78px;
+                font-size: 22px;
+                color: #434343;
+                margin-right: 18px;
+                text-align: center;
+                position: relative;
+                top: -2px;
+                z-index: 100;
+                border-bottom: 5px solid #00a0e9;
+                font-weight: 400;
+            }
+            .title-lg{
+                width: 210px;
+            }
+            .m-body{
+                position: relative;
+                padding-top: 28px;
             }
         }
     }
