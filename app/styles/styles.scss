@@ -1014,10 +1014,10 @@ select::-ms-expand{
                 width: 210px;
             }
             .m-body{
-                margin: 0 40px;
+                margin: 0 15px;
                 position: relative;
                 padding-top: 28px;
-                .unslide{
+                .unslider, .unslide{
                     position: relative;
                     width: 628px;
                     height: 430px;
@@ -1025,6 +1025,9 @@ select::-ms-expand{
                 }
                 .unslide:hover{
                     .btn-arrow{
+                        display: block;
+                    }
+                    .desc {
                         display: block;
                     }
                 }
@@ -1058,9 +1061,10 @@ select::-ms-expand{
                         height: 100%;
                     }
                     .desc{
+                        display: none;
                         color: #fff;
                         position: absolute;
-                        bottom: 36px;
+                        bottom: 0px;
                         width: 100%;
                         background: rgba(0,0,0, 0.22);
                         padding: 15px 0;
@@ -1073,6 +1077,13 @@ select::-ms-expand{
                             margin: 0 0 5px 30px;
                         }
                     }
+                }
+                .right-nav{
+                    display: inline-block;
+                    border: 1px solid red;
+                    width: 350px;
+                    height: 446px;
+                    background: #faf8f8;
                 }
             }
         }

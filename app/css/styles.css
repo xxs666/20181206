@@ -1207,15 +1207,17 @@ select::-ms-expand {
       .g-preview .m-project .m-con .title-lg {
         width: 210px; }
       .g-preview .m-project .m-con .m-body {
-        margin: 0 40px;
+        margin: 0 15px;
         position: relative;
         padding-top: 28px; }
-        .g-preview .m-project .m-con .m-body .unslide {
+        .g-preview .m-project .m-con .m-body .unslider, .g-preview .m-project .m-con .m-body .unslide {
           position: relative;
           width: 628px;
           height: 430px;
           display: inline-block; }
         .g-preview .m-project .m-con .m-body .unslide:hover .btn-arrow {
+          display: block; }
+        .g-preview .m-project .m-con .m-body .unslide:hover .desc {
           display: block; }
         .g-preview .m-project .m-con .m-body .btn-arrow {
           position: absolute;
@@ -1245,9 +1247,10 @@ select::-ms-expand {
             width: 100%;
             height: 100%; }
           .g-preview .m-project .m-con .m-body .m-card .desc {
+            display: none;
             color: #fff;
             position: absolute;
-            bottom: 36px;
+            bottom: 0px;
             width: 100%;
             background: rgba(0, 0, 0, 0.22);
             padding: 15px 0; }
@@ -1257,3 +1260,9 @@ select::-ms-expand {
             .g-preview .m-project .m-con .m-body .m-card .desc .desc-content {
               font-size: 14px;
               margin: 0 0 5px 30px; }
+        .g-preview .m-project .m-con .m-body .right-nav {
+          display: inline-block;
+          border: 1px solid red;
+          width: 350px;
+          height: 446px;
+          background: #faf8f8; }
