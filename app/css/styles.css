@@ -1269,7 +1269,8 @@ select::-ms-expand {
           padding: 10px 8px;
           width: 350px;
           height: 426px;
-          background: #faf8f8; }
+          background: #faf8f8;
+          overflow-y: auto; }
           .g-preview .m-project .m-con .m-body .right-nav .nav-left {
             float: left;
             width: 116px;

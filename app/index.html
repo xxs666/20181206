@@ -385,7 +385,7 @@
                     </div>
                 </div>
             </div>
-            <div class="m-down">
+            <div class="m-down" id="3d">
                 <div class="m-con-left f-ib">
                     <div class="m-header">
                         <div class="title title-lg">
@@ -398,7 +398,7 @@
                         <div class="u-desc">晏志勇在中国发展高层论坛上提出：以新论坛上提论坛上提论坛上</div>
                     </div>
                 </div>
-                <div class="m-con-right f-ib">
+                <div class="m-con-right f-ib" id="honor">
                     <div class="m-header">
                         <div class="title title-lg">
                             荣誉档案网上展厅
@@ -435,7 +435,7 @@
             <div class="btn-down odd"></div>
         </div>
     </div>
-    <div class="g-bd-ex">
+    <div class="g-bd-ex" id="project">
         <div class="m-header">
             <div class="title">
                 典型工程
@@ -528,9 +528,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="btn-arrow btn-arrow-left"></div>
-                <div class="btn-arrow btn-arrow-right"></div>
             </div>
+            <div class="btn-arrow btn-arrow-left"></div>
+            <div class="btn-arrow btn-arrow-right"></div>
         </div>
         <div class="m-link">
             <div class="m-up">
@@ -596,16 +596,20 @@
                 arrows: false,
                 infinite: true
             });
-            $(".g-bd .btn-arrow-left").on("click", function () {
+            $(".g-bd .btn-arrow-left").on("click", function (e) {
+                e.stopPropagation();
                 slide1.data('unslider').prev();
             })
-            $(".g-bd .btn-arrow-right").on("click", function () {
+            $(".g-bd .btn-arrow-right").on("click", function (e) {
+                e.stopPropagation();
                 slide1.data('unslider').next();
             })
-            $(".g-bd-ex .btn-arrow-left").on("click", function () {
+            $(".g-bd-ex .btn-arrow-left").on("click", function (e) {
+                e.stopPropagation();
                 slide2.data('unslider').prev();
             })
-            $(".g-bd-ex .btn-arrow-right").on("click", function () {
+            $(".g-bd-ex .btn-arrow-right").on("click", function (e) {
+                e.stopPropagation();
                 slide2.data('unslider').next();
             })
             $(".m-link .u-select").on("click", function (e) {
@@ -640,6 +644,21 @@
             $(".m-ft-ex").slideToggle();
             $(".icon-expand, .icon-packup").toggle();
             // if($(".m-ft-ex").css("background"))
+        })
+
+        $("#3d").on("click", function(e){
+            e.stopPropagation();
+            window.location.href = "./3D.html";
+        })
+
+        $("#honor").on("click", function(e){
+            e.stopPropagation();
+            window.location.href = "./honor.html";
+        })
+
+        $("#project").on("click", function(e){
+            e.stopPropagation();
+            window.location.href = "./project.html";
         })
     </script>
 </body>

@@ -1089,6 +1089,7 @@ select::-ms-expand{
                     width: 350px;
                     height: 426px;
                     background: #faf8f8;
+                    overflow-y: auto;
                     .nav-left{
                         float: left;
                         width: 116px;
