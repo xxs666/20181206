@@ -106,7 +106,8 @@
                     </div>
                     <div class="u-checkbox">
                         <div class="u-checkbox-item">
-                            <input type="checkbox" name="ss" value="tuzhi" class="check-item" id="tuzhi" defaultChecked="false" />
+                            <input type="checkbox" name="ss" value="tuzhi" class="check-item" id="tuzhi"
+                                defaultChecked="false" />
                             <label for="tuzhi"></label>
                         </div>
                         <label for="tuzhi" class="u-radio-item">图纸</label>
@@ -145,7 +146,8 @@
                     </div>
                     <div class="u-checkbox">
                         <div class="u-checkbox-item">
-                            <input type="checkbox" name="ss" value="声像" class="check-item" id="声像" defaultChecked="false" />
+                            <input type="checkbox" name="ss" value="声像" class="check-item" id="声像"
+                                defaultChecked="false" />
                             <label for="声像"></label>
                         </div>
                         <label for="声像" class="u-radio-item">声像</label>
@@ -271,7 +273,13 @@
                         <div class="m-tab-header-item f-ib select">情报资讯</div>
                         <div class="m-tab-header-item f-ib">标签1</div>
                         <div class="m-tab-header-item f-ib">标签2</div>
-                        <div class="btn-more"></div>
+                        <div class="btn-more u-select">
+                            <div class="u-select-content">
+                                <a href="#">12313</a>
+                                <a href="#">奥斯</a>
+                                <a href="#">阿萨德</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="m-tab-body">
                         <div class="m-tab-body-item">
@@ -331,7 +339,13 @@
                         <div class="m-tab-header-item f-ib select">部门新闻</div>
                         <div class="m-tab-header-item f-ib">归档指引</div>
                         <div class="m-tab-header-item f-ib">文控指引</div>
-                        <div class="btn-more"></div>
+                        <div class="btn-more u-select">
+                            <div class="u-select-content">
+                                <a href="#">12313</a>
+                                <a href="#">奥斯</a>
+                                <a href="#">阿萨德</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="m-tab-body z-new">
                         <div class="m-tab-body-item_new">
@@ -391,7 +405,13 @@
                         <div class="title title-lg">
                             三维档案网上展厅
                         </div>
-                        <div class="btn-more"></div>
+                        <div class="btn-more u-select">
+                            <div class="u-select-content">
+                                <a href="#">12313</a>
+                                <a href="#">奥斯</a>
+                                <a href="#">阿萨德</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="m-body">
                         <img src="imgs/3d.png">
@@ -403,11 +423,18 @@
                         <div class="title title-lg">
                             荣誉档案网上展厅
                         </div>
-                        <div class="btn-more"></div>
+                        <div class="btn-more u-select">
+                            <div class="u-select-content">
+                                <a href="#">12313</a>
+                                <a href="#">奥斯</a>
+                                <a href="#">阿萨德</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="m-body">
                         <div class="unslide unslide-1 f-ib">
-                            <div class="unslider-horizontal" style="position: relative; overflow: hidden; height: 394px;">
+                            <div class="unslider-horizontal"
+                                style="position: relative; overflow: hidden; height: 394px;">
                                 <ul class="unslider-wrap unslider-carousel" style="left: 0px; height:100%">
                                     <li class="unslider-active" id="slide_1"></li>
                                     <li class="" id="slide_2"></li>
@@ -440,7 +467,13 @@
             <div class="title">
                 典型工程
             </div>
-            <div class="btn-more"></div>
+            <div class="btn-more u-select">
+                <div class="u-select-content">
+                    <a href="#">12313</a>
+                    <a href="#">奥斯</a>
+                    <a href="#">阿萨德</a>
+                </div>
+            </div>
         </div>
         <div class="m-body">
             <div class="unslide unslide-2 f-ib">
@@ -614,6 +647,7 @@
             })
             $(".m-link .u-select").on("click", function (e) {
                 e.stopPropagation();
+                e.stopPropagation();
                 $(this).parents(".f-ib").siblings().children(".u-select").children().hide();
                 $(this).children(".u-select-content").toggle();
             })
@@ -640,23 +674,33 @@
                 }
             })
         });
+        $(".btn-more").on("click", function (e) {
+            e.stopPropagation();
+            $(this).parents(".f-ib").siblings().children(".u-select").children().hide();
+            $(this).children(".u-select-content").toggle();
+        })
+        $(document).on("click", function(e){
+            if(!$(e.target).hasClass("btn-more")){
+                $(".btn-more").children(".u-select-content").hide();
+            }
+        })
         $(".icon-expand, .icon-packup").on("click", function () {
             $(".m-ft-ex").slideToggle();
             $(".icon-expand, .icon-packup").toggle();
             // if($(".m-ft-ex").css("background"))
         })
 
-        $("#3d").on("click", function(e){
+        $("#3d").on("click", function (e) {
             e.stopPropagation();
             window.location.href = "./3D.html";
         })
 
-        $("#honor").on("click", function(e){
+        $("#honor").on("click", function (e) {
             e.stopPropagation();
             window.location.href = "./honor.html";
         })
 
-        $("#project").on("click", function(e){
+        $("#project").on("click", function (e) {
             e.stopPropagation();
             window.location.href = "./project.html";
         })

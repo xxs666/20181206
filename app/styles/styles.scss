@@ -364,6 +364,33 @@ select::-ms-expand{
             height: 25px;
             background: url("../imgs/btn_more.png") no-repeat;
             cursor: pointer;
+            .u-select-content{
+                display: none;
+                position: absolute;
+                top: 32px;
+                left: 10px;
+                border: 1px solid #b5b5b5;
+                width: 270px;
+                background: #fff;
+                z-index: 10000;
+            }
+            div{
+                background: #ffffff;
+                color: #434343;
+                padding-left: 10px;
+            }
+            a{
+                padding-left: 10px;
+                display: block;
+                width: 229px;
+                height: 22px;
+                line-height: 22px;
+                background: #ffffff;
+                color: #434343;;
+            }
+            a:hover{
+                background: #eeeeee;
+            }
         }
         .m-tab{
             width: 484px;
@@ -618,6 +645,33 @@ select::-ms-expand{
         height: 25px;
         background: url("../imgs/btn_more.png") no-repeat;
         cursor: pointer;
+        .u-select-content{
+            display: none;
+            position: absolute;
+            top: 32px;
+            left: 10px;
+            border: 1px solid #b5b5b5;
+            width: 270px;
+            background: #fff;
+            z-index: 10000;
+        }
+        div{
+            background: #ffffff;
+            color: #434343;
+            padding-left: 10px;
+        }
+        a{
+            padding-left: 10px;
+            display: block;
+            width: 229px;
+            height: 22px;
+            line-height: 22px;
+            background: #ffffff;
+            color: #434343;;
+        }
+        a:hover{
+            background: #eeeeee;
+        }
     }
     .title{
         width: 108px;

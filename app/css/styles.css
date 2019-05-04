@@ -667,6 +667,29 @@ select::-ms-expand {
       height: 25px;
       background: url("../imgs/btn_more.png") no-repeat;
       cursor: pointer; }
+      .g-bd .g-mn .btn-more .u-select-content {
+        display: none;
+        position: absolute;
+        top: 32px;
+        left: 10px;
+        border: 1px solid #b5b5b5;
+        width: 270px;
+        background: #fff;
+        z-index: 10000; }
+      .g-bd .g-mn .btn-more div {
+        background: #ffffff;
+        color: #434343;
+        padding-left: 10px; }
+      .g-bd .g-mn .btn-more a {
+        padding-left: 10px;
+        display: block;
+        width: 229px;
+        height: 22px;
+        line-height: 22px;
+        background: #ffffff;
+        color: #434343; }
+      .g-bd .g-mn .btn-more a:hover {
+        background: #eeeeee; }
     .g-bd .g-mn .m-tab {
       width: 484px;
       margin-right: 26px; }
@@ -872,6 +895,29 @@ select::-ms-expand {
     height: 25px;
     background: url("../imgs/btn_more.png") no-repeat;
     cursor: pointer; }
+    .g-bd-ex .btn-more .u-select-content {
+      display: none;
+      position: absolute;
+      top: 32px;
+      left: 10px;
+      border: 1px solid #b5b5b5;
+      width: 270px;
+      background: #fff;
+      z-index: 10000; }
+    .g-bd-ex .btn-more div {
+      background: #ffffff;
+      color: #434343;
+      padding-left: 10px; }
+    .g-bd-ex .btn-more a {
+      padding-left: 10px;
+      display: block;
+      width: 229px;
+      height: 22px;
+      line-height: 22px;
+      background: #ffffff;
+      color: #434343; }
+    .g-bd-ex .btn-more a:hover {
+      background: #eeeeee; }
   .g-bd-ex .title {
     width: 108px;
     height: 78px;
