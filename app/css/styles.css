@@ -1159,6 +1159,10 @@ select::-ms-expand {
           background: url("../imgs/btn-arrow-up.png"); }
         .g-preview .m-3d .m-con .btn-nav .btn-arrow-down {
           background: url("../imgs/btn-arrow-down.png"); }
+        .g-preview .m-3d .m-con .btn-nav .btn-arrow-up:hover {
+          background: url("../imgs/btn-arrow-up-hover.png"); }
+        .g-preview .m-3d .m-con .btn-nav .btn-arrow-down:hover {
+          background: url("../imgs/btn-arrow-down-hover.png"); }
   .g-preview .m-honor {
     width: 1280px;
     margin: 0 auto; }

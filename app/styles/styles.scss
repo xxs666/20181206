@@ -956,6 +956,12 @@ select::-ms-expand{
                 .btn-arrow-down{
                     background: url('../imgs/btn-arrow-down.png')
                 }
+                .btn-arrow-up:hover{
+                    background: url('../imgs/btn-arrow-up-hover.png')
+                }
+                .btn-arrow-down:hover{
+                    background: url('../imgs/btn-arrow-down-hover.png')
+                }
             }
         }
     }

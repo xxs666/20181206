@@ -241,6 +241,9 @@
                 })
                 $(".mask, .btn-expand").hide()
             })
+            $('.tab-item').click(function(){
+                $(this).addClass('select').siblings().removeClass('select');
+            })
         })
     </script>
 </body>
